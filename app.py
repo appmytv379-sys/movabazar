@@ -10,11 +10,6 @@ import os
 TARGET_CATEGORIES = [
     {"url": "https://www.moviesbazar.tv/browse/category/new-release", "name": "recently_added_movies"},
     {"url": "https://www.moviesbazar.tv/browse/category/hollywood", "name": "hollywood_latest_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/bollywood", "name": "bollywood_all_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/south", "name": "south_all_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/hindi", "name": "Hindi_all_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/hindi-dubbed", "name": "Hindi_Dubbed_all_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/movies", "name": "Movies_all_movies"},
     {"url": "https://www.moviesbazar.tv/browse/category/bengali", "name": "bengali_all_movies"}
 ]
 
