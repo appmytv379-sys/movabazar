@@ -2,334 +2,317 @@ import requests
 import json
 import re
 import time
+import random
 import os
+from urllib.parse import urlparse
 
-# ==========================================
-# ADD AS MANY CATEGORY LINKS HERE AS YOU WANT
-# ==========================================
-TARGET_CATEGORIES = [
-    {"url": "https://www.moviesbazar.tv/browse/recently-added", "name": "recently_added_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/latest/hollywood", "name": "hollywood_latest_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/bollywood", "name": "bollywood_all_movies"},
-    {"url": "https://www.moviesbazar.tv/browse/category/bengali", "name": "bengali_all_movies"}
-]
+class Colors:
+    HEADER = '\033[95m'
+    BLUE = '\033[94m'
+    CYAN = '\033[96m'
+    GREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
 
-HEADERS = {
+def log(msg, color=Colors.ENDC, symbol="*"):
+    time_str = time.strftime("%H:%M:%S")
+    print(f"{Colors.BOLD}[{time_str}]{Colors.ENDC} {color}[{symbol}] {msg}{Colors.ENDC}")
+
+# Setting up global session with the exact same bypass headers
+session = requests.Session()
+session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "application/json, text/plain, */*",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
-    "Content-Type": "application/json",
     "Referer": "https://www.moviesbazar.tv/",
     "Origin": "https://www.moviesbazar.tv",
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Site": "cross-site"
-}
+})
 
-COLOR_INFO = "\033[94m" # Blue
-COLOR_SUCCESS = "\033[92m" # Green
-COLOR_WARNING = "\033[93m" # Yellow
-COLOR_ERROR = "\033[91m" # Red
-COLOR_TITLE = "\033[95m" # Purple
-COLOR_RESET = "\033[0m"
+def fetch_url(url, is_post=False, post_data=None):
+    try:
+        if is_post:
+            res = session.post(url, json=post_data, timeout=40)
+        else:
+            res = session.get(url, timeout=40)
+        return {'error': False, 'data': res.text, 'code': res.status_code}
+    except Exception as e:
+        return {'error': True, 'data': str(e), 'code': 0}
 
-def log(msg, color=COLOR_RESET):
-    """Prints formatted timestamped logs to the terminal."""
-    current_time = time.strftime("%H:%M:%S")
-    print(f"[{current_time}] {color}{msg}{COLOR_RESET}")
+def get_category_name(url):
+    parts = [p for p in url.split('/') if p]
+    last_part = parts[-1]
+    return last_part.replace('-', ' ').title()
 
-def extract_api_path(url):
-    """Extracts exact API path like 'recently-added' or 'latest/hollywood'"""
-    if '/browse/' in url:
-        return url.split('/browse/')[1].strip('/')
-    return url.replace('https://www.moviesbazar.tv/', '').strip('/')
+def generate_slug(title):
+    if not title: return 'movie'
+    slug = re.sub(r'[^A-Za-z0-9]+', '-', title).strip('-').lower()
+    return slug if slug else 'movie'
 
-def find_movies_aggressively(data, movies_list=None):
-    """Recursively deeply searches JSON and extracts absolutely EVERY movie object."""
-    if movies_list is None:
-        movies_list = []
-        
+def extract_movies_recursive(data, movies):
+    """
+    Highly robust deep extraction. Grabs any valid object, ignores broken ones!
+    Same logic as your PHP code but applied to Python dicts/lists.
+    """
     if isinstance(data, dict):
-        # If the dict looks like a movie object (has id/imdbId and title/type)
-        if ('imdbId' in data or '_id' in data) and ('title' in data or 'type' in data):
-            movies_list.append(data)
-        # Continue searching inside children
-        for key, value in data.items():
-            find_movies_aggressively(value, movies_list)
+        if 'title' in data and ('_id' in data or 'id' in data or 'imdbId' in data):
+            movies.append(data)
+        else:
+            for key, value in data.items():
+                extract_movies_recursive(value, movies)
     elif isinstance(data, list):
         for item in data:
-            find_movies_aggressively(item, movies_list)
-            
-    return movies_list
+            extract_movies_recursive(item, movies)
+    return movies
 
-def main():
-    session = requests.Session()
-    session.headers.update(HEADERS)
+def format_movie_data(merged_data, detail_html, category_name):
+    """
+    Applies the exact formatting constraints: title (year), single m3u8, static headers.
+    """
+    # 1. ID resolution
+    movie_id = merged_data.get('_id') or merged_data.get('id') or str(merged_data.get('imdbId', '')).replace('tt', '')
     
-    log("\n🚀 Ultimate Scraping Process Initialized...", COLOR_TITLE)
-
-    for idx, category in enumerate(TARGET_CATEGORIES):
-        base_url = category["url"]
-        file_name = category["name"]
-        api_path = extract_api_path(base_url)
+    # 2. Title & Year resolution (Appending Year)
+    raw_title = merged_data.get('title', 'Unknown Title')
+    year = str(merged_data.get('year') or merged_data.get('releaseYear') or "")
+    if year and year not in raw_title:
+        title = f"{raw_title.strip()} ({year})"
+    else:
+        title = raw_title.strip()
         
-        log(f"\n==================================================", COLOR_INFO)
-        log(f"[Category {idx+1}/{len(TARGET_CATEGORIES)}] STARTING: {file_name.upper()}", COLOR_TITLE)
-        log(f"Detected API Path: /api/v1/movies/{api_path}", COLOR_INFO)
+    # 3. Stream URL (m3u8) extraction - Pick the best one
+    streaming_links = []
+    
+    wl_match = re.search(r'"watchLink"\s*:\s*(\[\{.*?\}\])', detail_html)
+    pl_match = re.search(r'"playList"\s*:\s*(\[\{.*?\}\])', detail_html)
+    
+    if wl_match:
+        try: streaming_links.extend(json.loads(wl_match.group(1).replace('\\"', '"').replace('\\/', '/')))
+        except: pass
+    if pl_match and not streaming_links:
+        try: streaming_links.extend(json.loads(pl_match.group(1).replace('\\"', '"').replace('\\/', '/')))
+        except: pass
         
-        unique_movie_links = set()
-        category_extracted_data = []
+    best_m3u8 = ""
+    if streaming_links:
+        for link in streaming_links:
+            if isinstance(link, dict) and link.get('source'):
+                best_m3u8 = link['source']
+                break # Pick the first available (usually the primary/best one)
 
-        log("\nPhase 1: Fetching initial HTML page...", COLOR_INFO)
+    if not best_m3u8:
+        m3u8s = re.findall(r'(https:\/\/[^"\'\s]+\.m3u8[^"\'\s\\]*)', detail_html, re.IGNORECASE)
+        if m3u8s:
+            best_m3u8 = m3u8s[0]
+            
+    if best_m3u8:
+        best_m3u8 = best_m3u8.replace('\\/', '/')
+
+    # 4. Rich Metadata defaults & cleaning
+    director = merged_data.get('director', "Unknown")
+    if isinstance(director, list):
+        director = ", ".join([str(d.get('name', d)) if isinstance(d, dict) else str(d) for d in director]) if director else "Unknown"
+
+    genre = merged_data.get('genre', ["Unknown"])
+    if isinstance(genre, str):
+        genre = [g.strip() for g in genre.split(',')]
+    elif isinstance(genre, list):
+        genre = [str(g.get('name', g)) if isinstance(g, dict) else str(g) for g in genre]
+
+    try:
+        imdb_votes = int(str(merged_data.get('imdbVotes', 0)).replace(',', ''))
+    except:
+        imdb_votes = 0
+
+    language = merged_data.get('language', "Unknown")
+    if isinstance(language, list):
+        language = ", ".join(language) if language else "Unknown"
+
+    poster_url = merged_data.get('poster') or merged_data.get('posterUrl') or merged_data.get('thumbnail') or ""
+    if not poster_url:
+        thm_match = re.search(r'property="og:image"\s+content="([^"]+)"', detail_html, re.IGNORECASE)
+        if thm_match: poster_url = thm_match.group(1)
+
+    slider_url = merged_data.get('backdrop') or merged_data.get('sliderUrl') or poster_url
+    
+    if poster_url and poster_url.startswith('/'): poster_url = "https://www.moviesbazar.tv" + poster_url
+    if slider_url and slider_url.startswith('/'): slider_url = "https://www.moviesbazar.tv" + slider_url
+
+    # Final Strict Formatting
+    return {
+        "id": str(movie_id),
+        "category": category_name,
+        "director": director,
+        "genre": genre,
+        "imdbRating": str(merged_data.get('imdbRating') or merged_data.get('rating', "0")),
+        "imdbVotes": imdb_votes,
+        "language": language,
+        "posterUrl": poster_url,
+        "releaseDate": str(merged_data.get('releaseDate') or merged_data.get('released', "")),
+        "sliderUrl": slider_url,
+        "status": "on",
+        "storyline": merged_data.get('storyline') or merged_data.get('overview') or merged_data.get('description', "No storyline available."),
+        "streamUrl": best_m3u8,
+        "title": title,
+        "headers": {
+            "referer": "https://www.moviesbazar.tv",
+            "origin": "",
+            "user_agent": ""
+        }
+    }
+
+def scrape_category(base_cat_url):
+    category_name = get_category_name(base_cat_url)
+    log(f"STARTING SCRAPE: {category_name}", Colors.HEADER, "🚀")
+    
+    # 1. Fetch Initial Page
+    res = fetch_url(base_cat_url)
+    html = res['data']
+    
+    # API & Filter detection
+    api_match = re.search(r'"apiUrl"\s*:\s*"([^"]+)"', html)
+    api_path = api_match.group(1).strip('/') if api_match else urlparse(base_cat_url).path.replace('/browse/', '')
+    
+    initial_filter = {"genre": "all", "dateSort": -1}
+    filter_match = re.search(r'"initialFilter"\s*:\s*(\{.*?\})', html)
+    if filter_match:
         try:
-            res = session.get(base_url, timeout=30)
-            res.raise_for_status()
-            
-            # Extract links from Base HTML
-            matches = re.findall(r'href="(/watch/(?:movie|series)/[^"]+)"', res.text, re.IGNORECASE)
-            for href in matches:
-                unique_movie_links.add("https://www.moviesbazar.tv" + href)
-                
-            log(f"✅ Found {len(unique_movie_links)} links on base page.", COLOR_SUCCESS)
-        except Exception as e:
-            log(f"❌ Failed to fetch base page: {e}", COLOR_ERROR)
+            clean_json = filter_match.group(1).replace('\\"', '"')
+            initial_filter = json.loads(clean_json)
+        except: pass
 
-        log("\nPhase 1.5: Hitting Vercel POST API for Infinite Scroll...", COLOR_INFO)
-        current_page = 2
-        fails = 0
+    # Vercel URL mapping
+    api_url = f"https://moviesbazar-api-v16.vercel.app/{api_path}" if api_path.startswith('api/v1/movies/') else f"https://moviesbazar-api-v16.vercel.app/api/v1/movies/{api_path}"
+    
+    log(f"Detected API: {api_url}", Colors.CYAN, "i")
+    
+    unique_links = {}
+    current_page = 1
+    has_more = True
+    fails = 0
+    
+    # 2. Infinite Scroll Bypass Loop
+    while has_more:
+        log(f"Fetching API Page {current_page} for {category_name}...", Colors.BLUE, "↻")
         
-        while True:
-            api_url = f"https://moviesbazar-api-v16.vercel.app/api/v1/movies/{api_path}"
-            skip = (current_page - 1) * 40
+        # Bypass cache with random page calculation
+        skip = (current_page - 1) * 40
+        payload = {
+            "limit": 40,
+            "page": random.randint(100, 9999), 
+            "skip": skip,
+            "bodyData": { "filterData": initial_filter }
+        }
+        
+        api_res = fetch_url(api_url, is_post=True, post_data=payload)
+        
+        if api_res['error'] or api_res['code'] != 200:
+            fails += 1
+            log(f"API Failed HTTP {api_res['code']}. Retrying...", Colors.WARNING, "!")
+            if fails >= 2: has_more = False
+            time.sleep(2)
+            continue
             
-            # The EXACT Payload Structure discovered from the Network Tab
-            payload = {
-                "limit": 40,
-                "page": current_page,
-                "skip": skip,
-                "bodyData": {
-                    "filterData": {
-                        "genre": "all",
-                        "createdAt": -1
-                    }
-                }
-            }
+        try:
+            api_json = json.loads(api_res['data'])
+            movie_array = []
+            extract_movies_recursive(api_json, movie_array)
             
-            try:
-                api_res = session.post(api_url, json=payload, timeout=30)
+            added = 0
+            for movie in movie_array:
+                m_id = movie.get('_id') or movie.get('id') or str(movie.get('imdbId', '')).replace('tt', '')
+                if not m_id: continue
                 
-                if api_res.status_code != 200:
-                    log(f"⚠️ API returned HTTP {api_res.status_code}. Stopping pagination.", COLOR_WARNING)
-                    break
+                title_slug = generate_slug(movie.get('title'))
+                m_type = movie.get('type', 'movie')
+                movie_url = f"https://www.moviesbazar.tv/watch/{m_type}/{title_slug}/{m_id}"
+                
+                if movie_url not in unique_links:
+                    unique_links[movie_url] = movie
+                    added += 1
                     
-                data = api_res.json()
-                # Aggressively fetch all movie objects from deeply nested JSON
-                movies_array = find_movies_aggressively(data)
-                
-                if not movies_array:
-                    log(f"⚠️ API returned empty data. Reached true end at page {current_page}.", COLOR_WARNING)
-                    break
-                    
-                added = 0
-                for movie in movies_array:
-                    imdb_id = movie.get('imdbId', '')
-                    m_id = str(imdb_id).replace('tt', '')
-                    
-                    if not m_id:
-                        m_id = str(movie.get('_id', movie.get('id', '')))
-                        
-                    title = movie.get('title', 'movie')
-                    title_slug = re.sub(r'[^a-z0-9]+', '-', title.lower().strip()).strip('-')
-                    m_type = movie.get('type', 'movie')
-                    
-                    if m_id and title_slug:
-                        link = f"https://www.moviesbazar.tv/watch/{m_type}/{title_slug}/{m_id}"
-                        if link not in unique_movie_links:
-                            unique_movie_links.add(link)
-                            added += 1
-                
-                log(f"✅ API Page {current_page} fetched. Found {added} new links. Total: {len(unique_movie_links)}", COLOR_SUCCESS)
-                
-                # If no new links were added, the API might be repeating data, break to avoid infinite loop
-                if added == 0:
-                    log(f"⚠️ No new links found on page {current_page}. Stopping pagination.", COLOR_WARNING)
-                    break
-                
+            if added > 0:
+                log(f"Found {added} new links. Total: {len(unique_links)}", Colors.GREEN, "✓")
                 current_page += 1
                 fails = 0
+            else:
+                log("No new links found. Reached end of category.", Colors.WARNING, "!")
+                has_more = False
                 
-            except Exception as e:
-                log(f"❌ Failed API page {current_page}. Error: {e}", COLOR_ERROR)
-                fails += 1
-                if fails >= 3:
-                    log("Too many failures. Moving to Extraction Phase.", COLOR_ERROR)
-                    break
-            
-            # Anti-ban sleep
-            time.sleep(1.5)
-
-        movie_links_list = list(unique_movie_links)
-        log(f"\n✅ Phase 1 Complete. Final URL count for {file_name}: {len(movie_links_list)}", COLOR_TITLE)
-
-        if not movie_links_list:
-            log("Skipping extraction, no links found.", COLOR_WARNING)
-            continue
-
-        log(f"\nPhase 2: Extracting deep details and strict M3U8 streams for {len(movie_links_list)} movies...", COLOR_INFO)
-        
-        for j, movie_url in enumerate(movie_links_list):
-            try:
-                detail_res = session.get(movie_url, timeout=30)
-                html = detail_res.text
-                unescaped_html = html.replace('\\"', '"').replace('\\/', '/')
-                
-                # =====================================
-                # 1. STRICT M3U8 LINK EXTRACTION
-                # =====================================
-                stream_url = ""
-                
-                # Try finding valid .m3u8 links from JSON watchLink payload first
-                wl_match = re.search(r'"watchLink"\s*:\s*(\[\{.*?\}\])', unescaped_html, re.DOTALL)
-                if wl_match:
-                    try:
-                        watch_links = json.loads(wl_match.group(1))
-                        for wl in watch_links:
-                            source = wl.get('source', '')
-                            # ONLY accept it if it contains .m3u8 (ignores iframe links like mbstream.p2pplay)
-                            if '.m3u8' in source.lower():
-                                stream_url = source
-                                break
-                    except json.JSONDecodeError:
-                        pass
-                
-                # Regex Fallback: Aggressively scour the entire HTML for raw .m3u8 URLs
-                if not stream_url:
-                    m3u8_matches = re.findall(r'(https?://[^"\'\s<>]+?\.m3u8[^"\'\s<>\\]*)', unescaped_html, re.IGNORECASE)
-                    if m3u8_matches:
-                        stream_url = m3u8_matches[0]
-                
-                # If STILL no valid .m3u8 link is found, SKIP THIS MOVIE entirely
-                if not stream_url or ".m3u8" not in stream_url.lower():
-                    log(f"⚠️ Skipped [{j+1}/{len(movie_links_list)}]: No valid .m3u8 found.", COLOR_WARNING)
-                    time.sleep(1.0)
-                    continue
-                
-                # =====================================
-                # 2. METADATA EXTRACTION
-                # =====================================
-                
-                # Title Extract and clean
-                title_match = re.search(r'<title>(.*?)</title>', html, re.IGNORECASE | re.DOTALL)
-                raw_title = "Unknown Title"
-                if title_match:
-                    raw_title = title_match.group(1).replace('Watch ', '').replace(' Movie Online Free! | Movies Bazar', '').replace(' Series Online Free! | Movies Bazar', '').strip()
-                    # Remove existing year from title if present (e.g., "Haiwaan (2026)")
-                    raw_title = re.sub(r'\s*\(\d{4}\)\s*', '', raw_title)
-
-                # Thumbnail
-                thumb_match = re.search(r'property="og:image"\s+content="([^"]+)"', html, re.IGNORECASE)
-                thumbnail = thumb_match.group(1) if thumb_match else ""
-                
-                # Movie ID
-                movie_id = movie_url.split('/')[-1]
-                
-                # Release Date & Year
-                release_date = "Unknown"
-                rd_match = re.search(r'"fullReleaseDate"\s*:\s*"([^"]+)"', unescaped_html)
-                if rd_match:
-                    parts = rd_match.group(1).split('T')[0].split('-') 
-                    if len(parts) == 3:
-                        release_date = f"{parts[2]}-{parts[1]}-{parts[0]}" # DD-MM-YYYY
-                if release_date == "Unknown":
-                    ry_match = re.search(r'"releaseYear"\s*:\s*([0-9]{4})', unescaped_html)
-                    if ry_match:
-                        release_date = ry_match.group(1)
-                
-                # Extract 4-digit Year for Title
-                year = "Unknown"
-                y_match = re.search(r'\b((?:19|20)\d{2})\b', release_date)
-                if y_match:
-                    year = y_match.group(1)
-                
-                # Final Title format: "Movie Name (Year)"
-                final_title = f"{raw_title} ({year})"
-                
-                # IMDB Rating
-                imdb_rating = "0"
-                rating_match = re.search(r'"imdbRating"\s*:\s*([0-9.]+)', unescaped_html)
-                if rating_match:
-                    imdb_rating = rating_match.group(1)
-
-                # Genre Array
-                genre = ["Unknown"]
-                genre_match = re.search(r'"genre"\s*:\s*\[(.*?)\]', unescaped_html)
-                if genre_match:
-                    parsed_genres = re.findall(r'"(.*?)"', genre_match.group(1))
-                    if parsed_genres:
-                        genre = parsed_genres
-
-                # Language
-                language = "Unknown"
-                lang_match = re.search(r'"language"\s*:\s*"([^"]+)"', unescaped_html)
-                if lang_match:
-                    language = lang_match.group(1).title()
-                
-                # Storyline
-                storyline = "No storyline available."
-                desc_match = re.search(r'<meta name="description"\s+content="([^"]+)"', html, re.IGNORECASE)
-                if desc_match:
-                    storyline = desc_match.group(1).strip()
-                
-                # Category Name
-                cat_name = file_name.replace("_", " ").title()
-                
-                # =====================================
-                # 3. BUILD FINAL OBJECT
-                # =====================================
-                final_obj = {
-                    "id": movie_id,
-                    "category": cat_name,
-                    "director": "Unknown",
-                    "genre": genre,
-                    "imdbRating": str(imdb_rating),
-                    "imdbVotes": 0,
-                    "language": language,
-                    "posterUrl": thumbnail,
-                    "releaseDate": release_date,
-                    "sliderUrl": thumbnail,
-                    "status": "on",
-                    "storyline": storyline,
-                    "streamUrl": stream_url,
-                    "title": final_title,
-                    "headers": {
-                        "referer": "https://m.mymoviebazar.net/",
-                        "origin": "",
-                        "user_agent": ""
-                    }
-                }
-                
-                category_extracted_data.append(final_obj)
-                log(f"✅ Scraped [{j+1}/{len(movie_links_list)}]: {final_title}", COLOR_SUCCESS)
-                
-            except Exception as e:
-                log(f"❌ Network error skipping {movie_url}: {e}", COLOR_ERROR)
-
-            # Anti-ban sleep per movie (CRITICAL to avoid block)
-            time.sleep(1.0)
-
-        log(f"\nPhase 3: Saving {len(category_extracted_data)} valid records to JSON...", COLOR_INFO)
-        filename = f"{file_name}.json"
-        try:
-            with open(filename, 'w', encoding='utf-8') as f:
-                json.dump(category_extracted_data, f, indent=4, ensure_ascii=False)
-            log(f"💾 SUCCESS: File created -> {filename} (Skipped movies without m3u8)", COLOR_SUCCESS)
         except Exception as e:
-            log(f"💾 ERROR saving file: {e}", COLOR_ERROR)
+            log(f"Failed to parse JSON: {e}", Colors.FAIL, "X")
+            has_more = False
+            
+        time.sleep(1.5)
 
-        log("Waiting 3 seconds before moving to next category...", COLOR_WARNING)
-        time.sleep(3)
+    if not unique_links:
+        log("No links found to extract. Skipping.", Colors.WARNING, "!")
+        return
 
-    log("\n🎉 BOOM! ALL CATEGORIES SCRAPED SUCCESSFULLY!", COLOR_TITLE)
+    # 3. Deep Detail Extraction Phase
+    log(f"Extracting details and M3U8s for {len(unique_links)} movies...", Colors.HEADER, "⚙")
+    
+    final_movies_list = []
+    
+    for idx, (url, raw_movie_data) in enumerate(unique_links.items()):
+        log(f"Scraping [{idx+1}/{len(unique_links)}]: {raw_movie_data.get('title', 'Unknown')}...", Colors.CYAN, "→")
+        
+        detail_res = fetch_url(url)
+        detail_html = detail_res['data']
+        
+        # Merge Next.js State with API Data for highest accuracy
+        next_data_match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', detail_html, re.DOTALL)
+        if next_data_match:
+            try:
+                full_next_json = json.loads(next_data_match.group(1))
+                next_movies = []
+                extract_movies_recursive(full_next_json, next_movies)
+                if next_movies:
+                    # Give detail page priority by updating raw_movie_data
+                    raw_movie_data.update(next_movies[0])
+            except: pass
+            
+        # Format Data based on strict requirement
+        formatted_movie = format_movie_data(raw_movie_data, detail_html, category_name)
+        final_movies_list.append(formatted_movie)
+        
+        if formatted_movie['streamUrl']:
+            log(f"Success! M3U8 Found.", Colors.GREEN, "✓")
+        else:
+            log(f"No M3U8 found for this title.", Colors.FAIL, "X")
+            
+        time.sleep(1) # Be gentle on the server
+
+    # 4. Save JSON File
+    output_filename = f"{category_name.replace(' ', '_').lower()}.json"
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        json.dump(final_movies_list, f, indent=4, ensure_ascii=False)
+        
+    log(f"Saved {len(final_movies_list)} records to {output_filename}!", Colors.GREEN, "💾")
+    print("\n" + "="*50 + "\n")
+
 
 if __name__ == "__main__":
-    main()
+    target_categories = [
+        "https://www.moviesbazar.tv/browse/category/hollywood",
+        "https://www.moviesbazar.tv/browse/category/new-release",
+        "https://www.moviesbazar.tv/browse/category/bollywood",
+        "https://www.moviesbazar.tv/browse/category/south",
+        "https://www.moviesbazar.tv/browse/category/hindi",
+        "https://www.moviesbazar.tv/browse/category/hindi-dubbed",
+        "https://www.moviesbazar.tv/browse/category/movies",
+        "https://www.moviesbazar.tv/browse/category/bengali"
+    ]
+    
+    print(f"{Colors.BOLD}{Colors.HEADER}MoviesBazar Python Scraper Initialized{Colors.ENDC}")
+    print("="*50 + "\n")
+    
+    for url in target_categories:
+        scrape_category(url)
+        time.sleep(3) 
+
+    log("ALL CATEGORIES SCRAPED SUCCESSFULLY!", Colors.HEADER, "🎉")
