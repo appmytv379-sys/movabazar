@@ -10,6 +10,7 @@ import os
 TARGET_CATEGORIES = [
     {"url": "https://www.moviesbazar.tv/browse/recently-added", "name": "recently_added_movies"},
     {"url": "https://www.moviesbazar.tv/browse/latest/hollywood", "name": "hollywood_latest_movies"},
+    {"url": "https://www.moviesbazar.tv/browse/category/bollywood", "name": "bollywood_all_movies"},
     {"url": "https://www.moviesbazar.tv/browse/category/bengali", "name": "bengali_all_movies"}
 ]
 
@@ -301,7 +302,7 @@ def main():
                     "streamUrl": stream_url,
                     "title": final_title,
                     "headers": {
-                        "referer": "https://www.moviesbazar.tv//",
+                        "referer": "https://m.mymoviebazar.net/",
                         "origin": "",
                         "user_agent": ""
                     }
