@@ -144,6 +144,10 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         streams = re.findall(r'(https:\/\/[^"\'\s]+\.(?:m3u8|mp4|mkv)[^"\'\s]*)', unescaped_html, re.IGNORECASE)
         if streams: best_stream = streams[0]
 
+    # CLEAN URL: Remove query parameters like ?skip=102 to keep pure .m3u8/.mp4
+    if best_stream:
+        best_stream = best_stream.split('?')[0]
+
     director = parsed_details.get('director') or raw_data.get('director') or stremio_data.get('director') or "Unknown"
     if isinstance(director, list):
         director = ", ".join([str(d.get('name', d)) if isinstance(d, dict) else str(d) for d in director]) if director else "Unknown"
