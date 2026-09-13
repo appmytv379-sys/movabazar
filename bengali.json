@@ -818,63 +818,6 @@
         }
     },
     {
-        "id": "6800bd78a91c45fd48956971",
-        "category": "Bengali",
-        "director": "Srijit Mukherji",
-        "genre": [
-            "Drama",
-            "Crime",
-            "Thriller"
-        ],
-        "imdbRating": "5.3",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/hzk75FZTPvVg8TskN7zwgHxSGdo.jpg",
-        "releaseDate": "10-04-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt35660545/img",
-        "status": "on",
-        "storyline": "As Ananda Kar returns, now as Mrityunjay Kar, truth and destiny collide in a journey of love, healing, and purpose. With its iconic music and unexpected twists, Killbill Society is set to redefine `existence` through its compelling story.",
-        "streamUrl": "",
-        "title": "Killbill Society (2025)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
-        "id": "680f1f244681806a81a43349",
-        "category": "Bengali",
-        "director": "Unknown",
-        "genre": [
-            "Action",
-            "Romance"
-        ],
-        "imdbRating": "7",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/jpvptCCkoF85hZL3xd6olSAg8qc.jpg",
-        "releaseDate": "30-03-2025",
-        "sliderUrl": "https://images.metahub.space/background/medium/tt33305312/img",
-        "status": "on",
-        "storyline": "No storyline available.",
-        "streamUrl": "",
-        "title": "Borbaad (2025)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
         "id": "6842e47d93f90c4836637b5c",
         "category": "Bengali",
         "director": "M Raahim",
@@ -903,34 +846,6 @@
         }
     },
     {
-        "id": "6843550f388c0af9a7eae36c",
-        "category": "Bengali",
-        "director": "Sharaf Ahmed Zibon",
-        "genre": [
-            "Mystery",
-            "Thriller"
-        ],
-        "imdbRating": "7.2",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/o2oOpfhEKmKxlmZr0DBsIhizMhg.jpg",
-        "releaseDate": "30-03-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt36108604/img",
-        "status": "on",
-        "storyline": "When a young man is murdered, Inspector Mainul begins what seems like a straightforward case. But as he digs deeper, hidden truths, shifting motives, and shocking twists begin to unravel, turning the investigation into a gripping race to uncover the real killer.",
-        "streamUrl": "",
-        "title": "Chokkor 302 (2025)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
         "id": "68339f3c7cd20ef81c9750a3",
         "category": "Bengali",
         "director": "Dr. Krishnendu Chatterjee",
@@ -947,33 +862,6 @@
         "storyline": "It is a fun filled story of two middle aged fathers who are rivals according to their cultures , and when their children falls in love and tries their hardest subsequently in a simple and crazy way to bring them together to make t...",
         "streamUrl": "https://cdn30091.gufin435siv.com/stream2/i-arch-400/134f3f46783ad768392f05a28a993633/MJTMsp1RshGTygnMNRUR2N2MSlnWXZEdMNDZzQWe5MDZzMmdZJTO1R2RWVHZDljekhkSsl1VwYnWtx2cihVT290RKpmWqF1MOdUSw00RKxWWX5UbORUQ1oVbKhmT6FEMNdlTr9EVJVjWq1UP:1748216805:152.56.157.8:1894dce0f98fd42096940ec70cb7627b9b8555514c84edd387b295e2f18b253a/index.m3u8",
         "title": "Hungamaa.Com (2025)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
-        "id": "67994235166d5a072ef0227d",
-        "category": "Bengali",
-        "director": "Devraj Sinha",
-        "genre": [
-            "Thriller"
-        ],
-        "imdbRating": "6.8",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/h68u3vHzJJ2esq0e4k778u54v6e.jpg",
-        "releaseDate": "16-01-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt31722467/img",
-        "status": "on",
-        "storyline": "Detectives Felubakshi and Debjani probe murders at Mukherjee Bari, revealing a complex conspiracy. Family tensions, hidden secrets, and emotional conflicts fuel their investigation as they unravel a mystery deeper than expected.",
-        "streamUrl": "",
-        "title": "Felubakshi (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
@@ -1042,34 +930,6 @@
         }
     },
     {
-        "id": "67ce064a19587a2070c8f299",
-        "category": "Bengali",
-        "director": "Anonno Mamun",
-        "genre": [
-            "Drama",
-            "Thriller"
-        ],
-        "imdbRating": "6.8",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/jmJRdeGT81f08PilbW0ZD2RHrSe.jpg",
-        "releaseDate": "14-11-2024",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt29674465/img",
-        "status": "on",
-        "storyline": "A series of sudden murders unfold in the city of Varanasi, targeting prominent individuals. The escalating violence shocks the local police as they grapple with the growing list of victims. As the investigation progresses, an auto driver named Dulu Mia emerges as the key suspect. The police must unravel the mystery behind the serial killings and uncover the motives driving these tragic events.",
-        "streamUrl": "",
-        "title": "Dorod (2024)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
         "id": "670b9d23f39a38af6b47224b",
         "category": "Bengali",
         "director": "Srijit Mukherji",
@@ -1087,34 +947,6 @@
         "storyline": "Tekka is the story of Iqlakh, a janitor who has lost his job and is out to get it back by holding a schoolgirl hostage in a building. ACP Maya comes in, a woman who is trying to conceive. Add to the mix a young journalist pair, Brishti and Tintin, and we have a sentimental thriller in an office building spanning 48 hours, full of melodrama.",
         "streamUrl": "https://cdn30091.gufin435siv.com/stream2/i-arch-400/134f3f46783ad768392f05a28a993633/MJTMsp1RshGTygnMNRUR2N2MSlnWXZEdMNDZzQWe5MDZzMmdZJTO1R2RWVHZDljekhkSsl1VwYnWtx2cihVT2l1VNFTW6V1dadUR3p1RFdXWUF0MPRVQx4ERjhnTUtmMNpGaolFVnNTTUNWP:1728817555:152.58.177.211:5bdf284b125dbb3e130fe9d24b500e166a3fa6bd9b9c124903d7b14437509b7c/index.m3u8",
         "title": "Tekka (2024)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
-        "id": "67101f7a9ed3403ca7451c32",
-        "category": "Bengali",
-        "director": "Shiboprosad Mukherjee, Nandita Roy",
-        "genre": [
-            "Action",
-            "Drama"
-        ],
-        "imdbRating": "8.2",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/k9XTwKunWKmyvi0YhzULy6mws2P.jpg",
-        "releaseDate": "07-10-2024",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt32857110/img",
-        "status": "on",
-        "storyline": "A mysterious dacoit is on the run. A supercop gets involved with him in a cat and mouse chase.",
-        "streamUrl": "",
-        "title": "Bohurupi (2024)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
@@ -1460,63 +1292,6 @@
         }
     },
     {
-        "id": "6848688df336df56ecdfc961",
-        "category": "Bengali",
-        "director": "Mejbaur Rahman Sumon",
-        "genre": [
-            "Drama",
-            "Mystery"
-        ],
-        "imdbRating": "7.6",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/19JrYJIicR7vqiDmjdsTRXUHMFK.jpg",
-        "releaseDate": "28-07-2022",
-        "sliderUrl": "https://images.metahub.space/background/medium/tt10928202/img",
-        "status": "on",
-        "storyline": "Miracles about the life story of fishermen.",
-        "streamUrl": "",
-        "title": "Hawa (2022)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
-        "id": "684e8dd07281cb2216535ee5",
-        "category": "Bengali",
-        "director": "Sakib Sonet",
-        "genre": [
-            "Action",
-            "Romance",
-            "Comedy"
-        ],
-        "imdbRating": "7.2",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/j6wgGe6ktexsi3JFIQqKexCTo17.jpg",
-        "releaseDate": "04-06-2019",
-        "sliderUrl": "https://images.metahub.space/background/medium/tt8033682/img",
-        "status": "on",
-        "storyline": "This Movie Full Of Romance, Action And Drama. In And As Shakib Khan, Bobby. This Movie About Love And Action. You Guys Will Be Happy When You Watch This Movie In Theaters.",
-        "streamUrl": "",
-        "title": "Nolok (2019)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
         "id": "66b7c1c3900be65984e7202e",
         "category": "Bengali",
         "director": "Dhrubo Banerjee",
@@ -1561,34 +1336,6 @@
         "storyline": "An anonymous criminal gang plot a series attack in Dhaka City and three young police officers work on this.",
         "streamUrl": "https://vz-71aa66cf-3d2.b-cdn.net/c96bb7be-86a5-4568-8be2-fcf5c5af20e5/playlist.m3u8",
         "title": "Dhaka Attack (2017)",
-        "headers": {
-            "referer": "https://www.moviesbazar.tv/",
-            "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "cross-site"
-        }
-    },
-    {
-        "id": "684e91207281cb2216535ef4",
-        "category": "Bengali",
-        "director": "Hashibur Reza Kallol",
-        "genre": [
-            "Drama",
-            "Romance"
-        ],
-        "imdbRating": "7.7",
-        "imdbVotes": 0,
-        "language": "Bengali",
-        "posterUrl": "https://image.tmdb.org/t/p/w500/wowivqbvGFTRVEQ2a4NHzPe1Dvq.jpg",
-        "releaseDate": "06-04-2017",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt6250604/img",
-        "status": "on",
-        "storyline": "A bohemian encounters a woman with whom a love affair ensues.",
-        "streamUrl": "",
-        "title": "Swatta (2017)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
