@@ -189,8 +189,8 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         "streamUrl": best_m3u8,
         "title": title,
         "headers": {
-            "referer": "https://m.mymoviebazar.net/",
-            "origin": "",
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
             "user_agent": GLOBAL_HEADERS.get("User-Agent", ""),
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
