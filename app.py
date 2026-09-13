@@ -113,7 +113,10 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
     clean_title = re.sub(r'\s*\(\d{4}\)', '', raw_title).strip()
     title = f"{clean_title} ({year})" if year else clean_title
         
-    streaming_links = parsed_details.get('watchLink', []) + parsed_details.get('playList', [])
+    watch_links = parsed_details.get('watchLink') or []
+    play_list = parsed_details.get('playList') or []
+    streaming_links = watch_links + play_list
+    
     unescaped_html = detail_html.replace('\\"', '"').replace('\\/', '/')
     
     if not streaming_links:
@@ -186,9 +189,13 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         "streamUrl": best_m3u8,
         "title": title,
         "headers": {
-            "referer": "https://www.moviesbazar.tv",
+            "referer": "https://m.mymoviebazar.net/",
             "origin": "",
-            "user_agent": ""
+            "user_agent": GLOBAL_HEADERS.get("User-Agent", ""),
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
         }
     }
 
