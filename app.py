@@ -80,86 +80,113 @@ def extract_movies_recursive(data, movies):
             extract_movies_recursive(item, movies)
     return movies
 
-def format_movie_data(merged_data, detail_html, category_name):
-    movie_id = merged_data.get('_id') or merged_data.get('id') or str(merged_data.get('imdbId', '')).replace('tt', '')
-    raw_title = str(merged_data.get('title') or "Unknown Title")
-    year = str(merged_data.get('year') or merged_data.get('releaseYear') or "")
+async def fetch_imdb_metadata(session, imdb_id, m_type="movie"):
+    """Fetches high-quality fallback data from free Stremio Cinemeta API using IMDb ID."""
+    if not imdb_id: return {}
+    imdb_id = str(imdb_id)
+    if not imdb_id.startswith('tt'): 
+        imdb_id = 'tt' + imdb_id
+        
+    try:
+        stremio_type = "series" if m_type in ["series", "show"] else "movie"
+        url = f"https://v3-cinemeta.strem.io/meta/{stremio_type}/{imdb_id}.json"
+        async with session.get(url, timeout=10) as res:
+            if res.status == 200:
+                data = await res.json()
+                return data.get("meta", {})
+    except: pass
+    return {}
+
+def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, category_name):
+    imdb_id = str(parsed_details.get('imdbId') or raw_data.get('imdbId') or stremio_data.get('id') or "")
+    movie_id = parsed_details.get('_id') or raw_data.get('_id') or raw_data.get('id') or imdb_id.replace('tt', '')
+    
+    raw_title = str(parsed_details.get('title') or raw_data.get('title') or stremio_data.get('name') or "Unknown Title")
+    year = str(parsed_details.get('releaseYear') or raw_data.get('releaseYear') or stremio_data.get('releaseInfo') or "")
     
     if not year:
         year_match = re.search(r'\((\d{4})\)', raw_title)
         if year_match: year = year_match.group(1)
+    elif len(year) > 4:
+        year = year[:4]
             
     clean_title = re.sub(r'\s*\(\d{4}\)', '', raw_title).strip()
     title = f"{clean_title} ({year})" if year else clean_title
         
-    streaming_links = []
+    streaming_links = parsed_details.get('watchLink', []) + parsed_details.get('playList', [])
     unescaped_html = detail_html.replace('\\"', '"').replace('\\/', '/')
     
-    wl_match = re.search(r'"watchLink"\s*:\s*(\[\{.*?\}\])', unescaped_html)
-    pl_match = re.search(r'"playList"\s*:\s*(\[\{.*?\}\])', unescaped_html)
-    
-    if wl_match:
-        try: streaming_links.extend(json.loads(wl_match.group(1)))
-        except: pass
-    if pl_match and not streaming_links:
-        try: streaming_links.extend(json.loads(pl_match.group(1)))
-        except: pass
+    if not streaming_links:
+        wl_match = re.search(r'"watchLink"\s*:\s*(\[\{.*?\}\])', unescaped_html)
+        pl_match = re.search(r'"playList"\s*:\s*(\[\{.*?\}\])', unescaped_html)
+        if wl_match:
+            try: streaming_links.extend(json.loads(wl_match.group(1)))
+            except: pass
+        if pl_match and not streaming_links:
+            try: streaming_links.extend(json.loads(pl_match.group(1)))
+            except: pass
         
     best_m3u8 = ""
-    if streaming_links:
-        for link in streaming_links:
-            if isinstance(link, dict) and link.get('source') and '.m3u8' in str(link.get('source')):
-                best_m3u8 = link['source']
-                break 
+    for link in streaming_links:
+        if isinstance(link, dict) and link.get('source') and '.m3u8' in str(link.get('source')):
+            best_m3u8 = link['source']
+            break 
 
     if not best_m3u8:
         m3u8s = re.findall(r'(https:\/\/[^"\'\s]+\.m3u8[^"\'\s]*)', unescaped_html, re.IGNORECASE)
         if m3u8s: best_m3u8 = m3u8s[0]
 
-    director = merged_data.get('director', "Unknown")
+    director = parsed_details.get('director') or raw_data.get('director') or stremio_data.get('director') or "Unknown"
     if isinstance(director, list):
         director = ", ".join([str(d.get('name', d)) if isinstance(d, dict) else str(d) for d in director]) if director else "Unknown"
 
-    genre = merged_data.get('genre', ["Unknown"])
+    genre = parsed_details.get('genre') or raw_data.get('genre') or stremio_data.get('genres') or ["Unknown"]
     if isinstance(genre, str): genre = [g.strip() for g in genre.split(',')]
     elif isinstance(genre, list): genre = [str(g.get('name', g)) if isinstance(g, dict) else str(g) for g in genre]
 
-    try: imdb_votes = int(str(merged_data.get('imdbVotes', 0)).replace(',', ''))
+    rating = str(parsed_details.get('imdbRating') or raw_data.get('imdbRating') or "0")
+    if rating == "0" or rating == "0.0" or rating == "":
+        rating = str(stremio_data.get('imdbRating') or "0")
+
+    try: imdb_votes = int(str(parsed_details.get('imdbVotes') or raw_data.get('imdbVotes') or 0).replace(',', ''))
     except: imdb_votes = 0
 
-    language = merged_data.get('language', "Unknown")
+    language = parsed_details.get('language') or raw_data.get('language') or "Unknown"
     if isinstance(language, list): language = ", ".join(language) if language else "Unknown"
+    if language != "Unknown": language = language.title()
 
-    poster_url = merged_data.get('poster') or merged_data.get('posterUrl') or merged_data.get('thumbnail') or ""
+    poster_url = parsed_details.get('thumbnail') or raw_data.get('thumbnail') or raw_data.get('posterUrl') or stremio_data.get('poster') or ""
     if not poster_url:
         thm_match = re.search(r'property="og:image"\s+content="([^"]+)"', detail_html, re.IGNORECASE)
         if thm_match: poster_url = thm_match.group(1)
 
-    slider_url = merged_data.get('backdrop') or merged_data.get('sliderUrl') or poster_url
+    slider_url = parsed_details.get('backdrop') or raw_data.get('backdrop') or stremio_data.get('background') or poster_url
     
     if poster_url and poster_url.startswith('/'): poster_url = "https://www.moviesbazar.tv" + poster_url
     if slider_url and slider_url.startswith('/'): slider_url = "https://www.moviesbazar.tv" + slider_url
 
-    storyline = str(merged_data.get('storyline') or merged_data.get('overview') or merged_data.get('description', "No storyline available."))
-    storyline = re.sub(r'<[^>]+>', '', storyline).strip() 
+    storyline = parsed_details.get('storyline') or raw_data.get('storyline') or stremio_data.get('description') or "No storyline available."
+    storyline = re.sub(r'<[^>]+>', '', str(storyline)).strip() 
+
+    release_date = parsed_details.get('fullReleaseDate') or raw_data.get('fullReleaseDate') or parsed_details.get('releaseDate') or raw_data.get('releaseDate') or stremio_data.get('released') or ""
 
     return {
         "id": str(movie_id),
         "category": category_name,
         "director": director,
         "genre": genre,
-        "imdbRating": str(merged_data.get('imdbRating') or merged_data.get('rating', "0")),
+        "imdbRating": rating,
         "imdbVotes": imdb_votes,
         "language": language,
         "posterUrl": poster_url,
-        "releaseDate": format_date(merged_data.get('releaseDate') or merged_data.get('released', "")),
+        "releaseDate": format_date(release_date),
         "sliderUrl": slider_url,
         "status": "on",
         "storyline": storyline,
         "streamUrl": best_m3u8,
         "title": title,
         "headers": {
-            "referer": "https://www.moviesbazar.tv/",
+            "referer": "https://www.moviesbazar.tv",
             "origin": "",
             "user_agent": ""
         }
@@ -173,18 +200,33 @@ async def process_single_movie(session, url, raw_movie_data, category_name, sema
             return None
             
         detail_html = detail_res['data']
+        unescaped_html = detail_html.replace('\\"', '"').replace('\\/', '/')
         
-        next_data_match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', detail_html, re.DOTALL)
-        if next_data_match:
-            try:
-                full_next_json = json.loads(next_data_match.group(1))
-                next_movies = []
-                extract_movies_recursive(full_next_json, next_movies)
-                if next_movies:
-                    raw_movie_data.update(next_movies[0])
+        # 1. Advanced Next.js App Router Parsing (Grabs hidden movieDetails object)
+        parsed_details = {}
+        md_match = re.search(r'"movieDetails"\s*:\s*(\{.*?\})\s*,\s*"(?:suggestions|userIp|similarMovies)"', unescaped_html)
+        if md_match:
+            try: parsed_details = json.loads(md_match.group(1))
             except: pass
             
-        formatted_movie = format_movie_data(raw_movie_data, detail_html, category_name)
+        # Fallback to older Next.js schema if needed
+        if not parsed_details:
+            next_data_match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', detail_html, re.DOTALL)
+            if next_data_match:
+                try:
+                    full_next_json = json.loads(next_data_match.group(1))
+                    next_movies = []
+                    extract_movies_recursive(full_next_json, next_movies)
+                    if next_movies: parsed_details = next_movies[0]
+                except: pass
+        
+        # 2. Fetch Optional IMDb Fallback Data (Silent API Call)
+        imdb_id = parsed_details.get('imdbId') or raw_movie_data.get('imdbId') or ""
+        m_type = parsed_details.get('type') or raw_movie_data.get('type') or "movie"
+        stremio_data = await fetch_imdb_metadata(session, imdb_id, m_type)
+
+        # 3. Format Data with Fallbacks
+        formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name)
         
         if formatted_movie['streamUrl']:
              log(f"Found M3U8: {formatted_movie['title']}", Colors.GREEN, "✓")
