@@ -129,15 +129,20 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
             try: streaming_links.extend(json.loads(pl_match.group(1)))
             except: pass
         
-    best_m3u8 = ""
+    best_stream = ""
+    valid_extensions = ('.m3u8', '.mp4', '.mkv')
+    
     for link in streaming_links:
-        if isinstance(link, dict) and link.get('source') and '.m3u8' in str(link.get('source')):
-            best_m3u8 = link['source']
-            break 
+        if isinstance(link, dict) and link.get('source'):
+            source_url = str(link.get('source')).lower()
+            if any(ext in source_url for ext in valid_extensions):
+                best_stream = link['source']
+                break 
 
-    if not best_m3u8:
-        m3u8s = re.findall(r'(https:\/\/[^"\'\s]+\.m3u8[^"\'\s]*)', unescaped_html, re.IGNORECASE)
-        if m3u8s: best_m3u8 = m3u8s[0]
+    if not best_stream:
+        # Regex updated to catch m3u8, mp4, or mkv
+        streams = re.findall(r'(https:\/\/[^"\'\s]+\.(?:m3u8|mp4|mkv)[^"\'\s]*)', unescaped_html, re.IGNORECASE)
+        if streams: best_stream = streams[0]
 
     director = parsed_details.get('director') or raw_data.get('director') or stremio_data.get('director') or "Unknown"
     if isinstance(director, list):
@@ -186,7 +191,7 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         "sliderUrl": slider_url,
         "status": "on",
         "storyline": storyline,
-        "streamUrl": best_m3u8,
+        "streamUrl": best_stream,
         "title": title,
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
@@ -236,11 +241,11 @@ async def process_single_movie(session, url, raw_movie_data, category_name, sema
         formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name)
         
         if formatted_movie['streamUrl']:
-             log(f"Found M3U8: {formatted_movie['title']}", Colors.GREEN, "✓")
+             log(f"Found Stream: {formatted_movie['title']}", Colors.GREEN, "✓")
+             return formatted_movie
         else:
-             log(f"No M3U8 for: {formatted_movie['title']}", Colors.WARNING, "!")
-             
-        return formatted_movie
+             log(f"No Stream/Video for: {formatted_movie['title']} - SKIPPING", Colors.WARNING, "!")
+             return None
 
 async def scrape_category_async(base_cat_url, session):
     category_name = get_category_name(base_cat_url)
