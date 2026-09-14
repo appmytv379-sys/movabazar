@@ -29,21 +29,22 @@ def get_random_headers():
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/122.0"
     ]
     
-    # Generate a random Asian/Indian looking IP to spoof the server
-    fake_ip = f"{random.randint(103, 120)}.{random.randint(10, 250)}.{random.randint(10, 250)}.{random.randint(10, 250)}"
+    # STREAMING CHUNK: Generating clean headers without IP spoofing
+    # Removed fake_ip generation to prevent hash mismatch on the server side.
+    # The server needs to generate the stream URL token based on a real, valid connection
+    # otherwise the CDN's hash validation will fail when trying to play the video.
     
     return {
         "User-Agent": random.choice(user_agents),
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate", # Removed 'br' to prevent decoding errors
+        "Accept-Encoding": "gzip, deflate", 
         "Referer": "https://www.moviesbazar.tv/",
         "Origin": "https://www.moviesbazar.tv",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "cross-site",
-        "Connection": "keep-alive",
-        "X-Forwarded-For": fake_ip, # IP Spoofing Trick to bypass GitHub IP block
-        "Client-IP": fake_ip
+        "Connection": "keep-alive"
+        # Removed X-Forwarded-For and Client-IP to avoid confusing the token generator
     }
 
 def log(msg, color=Colors.ENDC, symbol="*"):
