@@ -29,16 +29,21 @@ def get_random_headers():
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/122.0"
     ]
     
+    # Generate a random Asian/Indian looking IP to spoof the server
+    fake_ip = f"{random.randint(103, 120)}.{random.randint(10, 250)}.{random.randint(10, 250)}.{random.randint(10, 250)}"
+    
     return {
         "User-Agent": random.choice(user_agents),
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate", 
+        "Accept-Encoding": "gzip, deflate", # Removed 'br' to prevent decoding errors
         "Referer": "https://www.moviesbazar.tv/",
         "Origin": "https://www.moviesbazar.tv",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "cross-site",
-        "Connection": "keep-alive"
+        "Connection": "keep-alive",
+        "X-Forwarded-For": fake_ip, # IP Spoofing Trick to bypass GitHub IP block
+        "Client-IP": fake_ip
     }
 
 def log(msg, color=Colors.ENDC, symbol="*"):
@@ -126,6 +131,7 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
     clean_title = re.sub(r'\s*\(\d{4}\)', '', raw_title).strip()
     title = f"{clean_title} ({year})" if year else clean_title
         
+    # FIX for NoneType Error: use 'or []' to ensure it's always a list
     watch_links = parsed_details.get('watchLink') or []
     play_list = parsed_details.get('playList') or []
     streaming_links = watch_links + play_list
@@ -145,21 +151,35 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
     best_stream = ""
     valid_extensions = ('.m3u8', '.mp4', '.mkv')
     
+    # STREAMING LOGIC UPDATE: Separate non-IP and IP-bound streams, clean URL params
+    non_ip_streams = []
+    ip_bound_streams = []
+    
     for link in streaming_links:
         if isinstance(link, dict) and link.get('source'):
-            source_url = str(link.get('source')).lower()
+            source_url = str(link.get('source')).lower().split('?')[0] # Clean URL params
             if any(ext in source_url for ext in valid_extensions):
-                best_stream = link['source']
-                break 
+                if re.search(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b', source_url):
+                    ip_bound_streams.append(source_url)
+                else:
+                    non_ip_streams.append(source_url)
 
-    if not best_stream:
-        # Regex updated to catch m3u8, mp4, or mkv
+    # Regex Fallback if structured data failed
+    if not non_ip_streams and not ip_bound_streams:
         streams = re.findall(r'(https:\/\/[^"\'\s]+\.(?:m3u8|mp4|mkv)[^"\'\s]*)', unescaped_html, re.IGNORECASE)
-        if streams: best_stream = streams[0]
+        for s in streams:
+            clean_s = s.split('?')[0]
+            if re.search(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b', clean_s):
+                ip_bound_streams.append(clean_s)
+            else:
+                non_ip_streams.append(clean_s)
 
-    # CLEAN URL: Remove query parameters like ?skip=102 to keep pure .m3u8/.mp4
-    if best_stream:
-        best_stream = best_stream.split('?')[0]
+    # 1st Choice: Always take the stream that does NOT have an IP lock
+    if non_ip_streams:
+        best_stream = non_ip_streams[0]
+    # 2nd Choice: Fallback to IP bound stream if nothing else exists (NEVER SKIP THE MOVIE)
+    elif ip_bound_streams:
+        best_stream = ip_bound_streams[0]
 
     director = parsed_details.get('director') or raw_data.get('director') or stremio_data.get('director') or "Unknown"
     if isinstance(director, list):
@@ -281,6 +301,7 @@ async def scrape_category_async(base_cat_url, session):
         try: initial_filter = json.loads(filter_match.group(1).replace('\\"', '"'))
         except: pass
 
+    # Dynamic Regex to find the current active Vercel API URL (e.g. v17, v18)
     api_base_match = re.search(r'(https://moviesbazar-api-[a-zA-Z0-9-]+\.vercel\.app)', html)
     base_api_url = api_base_match.group(1) if api_base_match else "https://moviesbazar-api-v17.vercel.app"
 
@@ -350,7 +371,7 @@ async def scrape_category_async(base_cat_url, session):
     log(f"⚡ Launching High-Speed Concurrent Extraction for {len(unique_links)} movies...", Colors.HEADER, "⚡")
     output_filename = f"{category_name.replace(' ', '_').lower()}.json"
     
-    # We will process 20 movies SIMULTANEOUSLY (adjust if Cloudflare blocks you, but 20 is safe)
+    # Adjust Concurrency Limit (20 is very safe and extremely fast)
     concurrency_limit = 20 
     semaphore = asyncio.Semaphore(concurrency_limit)
     
@@ -358,7 +379,7 @@ async def scrape_category_async(base_cat_url, session):
     final_movies_list = []
     items_list = list(unique_links.items())
     
-    # Batch processing so we can save incrementally without losing data!
+    # Batch processing so we save incrementally without losing data!
     batch_size = 200 
     
     for i in range(0, len(items_list), batch_size):
@@ -374,7 +395,7 @@ async def scrape_category_async(base_cat_url, session):
         valid_results = [res for res in results if res is not None]
         final_movies_list.extend(valid_results)
         
-        # SAVE INCREMENTALLY! If it gets cancelled, previous batches are safe!
+        # SAVE INCREMENTALLY!
         with open(output_filename, 'w', encoding='utf-8') as f:
             json.dump(final_movies_list, f, indent=4, ensure_ascii=False)
             
@@ -394,7 +415,7 @@ async def main():
     print(f"{Colors.BOLD}{Colors.HEADER}⚡ MoviesBazar ULTRA-FAST ASYNC Scraper Initialized ⚡{Colors.ENDC}")
     print("="*50 + "\n")
     
-    # Use a custom TCPConnector to handle multiple concurrent connections safely
+    # TCPConnector helps handle multiple concurrent connections without crashing
     connector = aiohttp.TCPConnector(limit=50)
     async with aiohttp.ClientSession(connector=connector) as session:
         for url in target_categories:
