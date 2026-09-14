@@ -17,38 +17,51 @@ class Colors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
 
+def get_random_headers():
+    user_agents = [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/122.0"
+    ]
+    
+    return {
+        "User-Agent": random.choice(user_agents),
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate", 
+        "Referer": "https://www.moviesbazar.tv/",
+        "Origin": "https://www.moviesbazar.tv",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "cross-site",
+        "Connection": "keep-alive"
+    }
+
 def log(msg, color=Colors.ENDC, symbol="*"):
     time_str = time.strftime("%H:%M:%S")
     print(f"{Colors.BOLD}[{time_str}]{Colors.ENDC} {color}[{symbol}] {msg}{Colors.ENDC}")
 
-# CRITICAL FIX: No 'br' (Brotli) to prevent JSON parse errors natively
-GLOBAL_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate", 
-    "Referer": "https://www.moviesbazar.tv/",
-    "Origin": "https://www.moviesbazar.tv",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "cross-site",
-    "Connection": "keep-alive"
-}
-
 async def fetch_url_async(session, url, is_post=False, post_data=None, retries=3):
     """Asynchronously fetches a URL with built-in retries to prevent failures."""
     for attempt in range(retries):
+        headers = get_random_headers()
         try:
             if is_post:
-                async with session.post(url, json=post_data, headers={"Content-Type": "application/json"}, timeout=30) as res:
+                headers["Content-Type"] = "application/json"
+                async with session.post(url, json=post_data, headers=headers, timeout=30) as res:
                     text = await res.text()
-                    return {'error': False, 'data': text, 'code': res.status}
+                    return {'error': False, 'data': text, 'code': res.status, 'headers': headers}
             else:
-                async with session.get(url, timeout=30) as res:
+                async with session.get(url, headers=headers, timeout=30) as res:
                     text = await res.text()
-                    return {'error': False, 'data': text, 'code': res.status}
+                    return {'error': False, 'data': text, 'code': res.status, 'headers': headers}
         except Exception as e:
             if attempt == retries - 1:
-                return {'error': True, 'data': str(e), 'code': 0}
+                return {'error': True, 'data': str(e), 'code': 0, 'headers': headers}
             await asyncio.sleep(1) # Wait before retry
 
 def get_category_name(url):
@@ -97,7 +110,7 @@ async def fetch_imdb_metadata(session, imdb_id, m_type="movie"):
     except: pass
     return {}
 
-def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, category_name):
+def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, category_name, fetch_headers):
     imdb_id = str(parsed_details.get('imdbId') or raw_data.get('imdbId') or stremio_data.get('id') or "")
     movie_id = parsed_details.get('_id') or raw_data.get('_id') or raw_data.get('id') or imdb_id.replace('tt', '')
     
@@ -200,7 +213,7 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": GLOBAL_HEADERS.get("User-Agent", ""),
+            "user_agent": fetch_headers.get("User-Agent", ""),
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -242,7 +255,7 @@ async def process_single_movie(session, url, raw_movie_data, category_name, sema
         stremio_data = await fetch_imdb_metadata(session, imdb_id, m_type)
 
         # 3. Format Data with Fallbacks
-        formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name)
+        formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name, detail_res['headers'])
         
         if formatted_movie['streamUrl']:
              log(f"Found Stream: {formatted_movie['title']}", Colors.GREEN, "✓")
@@ -268,9 +281,13 @@ async def scrape_category_async(base_cat_url, session):
         try: initial_filter = json.loads(filter_match.group(1).replace('\\"', '"'))
         except: pass
 
-    api_url = f"https://moviesbazar-api-v16.vercel.app/{api_path}" if api_path.startswith('api/v1/movies/') else f"https://moviesbazar-api-v16.vercel.app/api/v1/movies/{api_path}"
+    api_base_match = re.search(r'(https://moviesbazar-api-[a-zA-Z0-9-]+\.vercel\.app)', html)
+    base_api_url = api_base_match.group(1) if api_base_match else "https://moviesbazar-api-v17.vercel.app"
+
+    # Construct final API URL dynamically
+    api_url = f"{base_api_url}/{api_path}" if api_path.startswith('api/v1/movies/') else f"{base_api_url}/api/v1/movies/{api_path}"
     
-    log(f"Detected API: {api_url}", Colors.CYAN, "i")
+    log(f"Detected Dynamic API: {api_url}", Colors.CYAN, "i")
     
     unique_links = {}
     current_page = 1
@@ -379,7 +396,7 @@ async def main():
     
     # Use a custom TCPConnector to handle multiple concurrent connections safely
     connector = aiohttp.TCPConnector(limit=50)
-    async with aiohttp.ClientSession(headers=GLOBAL_HEADERS, connector=connector) as session:
+    async with aiohttp.ClientSession(connector=connector) as session:
         for url in target_categories:
             await scrape_category_async(url, session)
             await asyncio.sleep(2) # Brief pause between giant categories
