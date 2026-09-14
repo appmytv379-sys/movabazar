@@ -23,28 +23,20 @@ def get_random_headers():
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/122.0"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0"
     ]
-    
-    # STREAMING CHUNK: Generating clean headers without IP spoofing
-    # Removed fake_ip generation to prevent hash mismatch on the server side.
-    # The server needs to generate the stream URL token based on a real, valid connection
-    # otherwise the CDN's hash validation will fail when trying to play the video.
     
     return {
         "User-Agent": random.choice(user_agents),
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate", 
+        "Accept-Encoding": "gzip, deflate",  # Crucial: Removed 'br' to prevent Brotli decode errors
         "Referer": "https://www.moviesbazar.tv/",
         "Origin": "https://www.moviesbazar.tv",
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "cross-site",
         "Connection": "keep-alive"
-        # Removed X-Forwarded-For and Client-IP to avoid confusing the token generator
     }
 
 def log(msg, color=Colors.ENDC, symbol="*"):
@@ -52,7 +44,6 @@ def log(msg, color=Colors.ENDC, symbol="*"):
     print(f"{Colors.BOLD}[{time_str}]{Colors.ENDC} {color}[{symbol}] {msg}{Colors.ENDC}")
 
 async def fetch_url_async(session, url, is_post=False, post_data=None, retries=3):
-    """Asynchronously fetches a URL with built-in retries to prevent failures."""
     for attempt in range(retries):
         headers = get_random_headers()
         try:
@@ -68,7 +59,7 @@ async def fetch_url_async(session, url, is_post=False, post_data=None, retries=3
         except Exception as e:
             if attempt == retries - 1:
                 return {'error': True, 'data': str(e), 'code': 0, 'headers': headers}
-            await asyncio.sleep(1) # Wait before retry
+            await asyncio.sleep(1)
 
 def get_category_name(url):
     parts = [p for p in url.split('/') if p]
@@ -84,7 +75,7 @@ def format_date(raw_date):
     raw_date = str(raw_date).split('T')[0]
     parts = raw_date.split('-')
     if len(parts) == 3 and len(parts[0]) == 4:
-        return f"{parts[2]}-{parts[1]}-{parts[0]}"
+        return f"{parts[2]}-{parts[1]}-{parts[0]}" # Output: DD-MM-YYYY
     return raw_date
 
 def extract_movies_recursive(data, movies):
@@ -100,7 +91,6 @@ def extract_movies_recursive(data, movies):
     return movies
 
 async def fetch_imdb_metadata(session, imdb_id, m_type="movie"):
-    """Fetches high-quality fallback data from free Stremio Cinemeta API using IMDb ID."""
     if not imdb_id: return {}
     imdb_id = str(imdb_id)
     if not imdb_id.startswith('tt'): 
@@ -116,7 +106,7 @@ async def fetch_imdb_metadata(session, imdb_id, m_type="movie"):
     except: pass
     return {}
 
-def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, category_name, fetch_headers):
+def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, category_name, fetch_headers, movie_url):
     imdb_id = str(parsed_details.get('imdbId') or raw_data.get('imdbId') or stremio_data.get('id') or "")
     movie_id = parsed_details.get('_id') or raw_data.get('_id') or raw_data.get('id') or imdb_id.replace('tt', '')
     
@@ -132,7 +122,7 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
     clean_title = re.sub(r'\s*\(\d{4}\)', '', raw_title).strip()
     title = f"{clean_title} ({year})" if year else clean_title
         
-    # FIX for NoneType Error: use 'or []' to ensure it's always a list
+    # Check if a video link exists to ensure the movie is actually playable
     watch_links = parsed_details.get('watchLink') or []
     play_list = parsed_details.get('playList') or []
     streaming_links = watch_links + play_list
@@ -148,40 +138,25 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         if pl_match and not streaming_links:
             try: streaming_links.extend(json.loads(pl_match.group(1)))
             except: pass
-        
-    best_stream = ""
+            
+    has_video = False
     valid_extensions = ('.m3u8', '.mp4', '.mkv')
-    
-    # STREAMING LOGIC UPDATE: Separate non-IP and IP-bound streams, clean URL params
-    non_ip_streams = []
-    ip_bound_streams = []
     
     for link in streaming_links:
         if isinstance(link, dict) and link.get('source'):
-            source_url = str(link.get('source')).lower().split('?')[0] # Clean URL params
-            if any(ext in source_url for ext in valid_extensions):
-                if re.search(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b', source_url):
-                    ip_bound_streams.append(source_url)
-                else:
-                    non_ip_streams.append(source_url)
+            if any(ext in str(link.get('source')).lower() for ext in valid_extensions):
+                has_video = True
+                break
 
-    # Regex Fallback if structured data failed
-    if not non_ip_streams and not ip_bound_streams:
+    if not has_video:
         streams = re.findall(r'(https:\/\/[^"\'\s]+\.(?:m3u8|mp4|mkv)[^"\'\s]*)', unescaped_html, re.IGNORECASE)
-        for s in streams:
-            clean_s = s.split('?')[0]
-            if re.search(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b', clean_s):
-                ip_bound_streams.append(clean_s)
-            else:
-                non_ip_streams.append(clean_s)
+        if streams: has_video = True
 
-    # 1st Choice: Always take the stream that does NOT have an IP lock
-    if non_ip_streams:
-        best_stream = non_ip_streams[0]
-    # 2nd Choice: Fallback to IP bound stream if nothing else exists (NEVER SKIP THE MOVIE)
-    elif ip_bound_streams:
-        best_stream = ip_bound_streams[0]
+    # If no video is found anywhere, return None to skip saving this movie
+    if not has_video:
+        return None
 
+    # Format the rest of the metadata perfectly
     director = parsed_details.get('director') or raw_data.get('director') or stremio_data.get('director') or "Unknown"
     if isinstance(director, list):
         director = ", ".join([str(d.get('name', d)) if isinstance(d, dict) else str(d) for d in director]) if director else "Unknown"
@@ -229,7 +204,8 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
         "sliderUrl": slider_url,
         "status": "on",
         "storyline": storyline,
-        "streamUrl": best_stream,
+        "streamUrl": movie_url,          # BEST STRATEGY: Save the main page URL instead of temp M3U8
+        "streamType": "live_fetch",      # UNIQUE IDENTIFIER: Generic type for future websites too
         "title": title,
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
@@ -243,7 +219,6 @@ def format_movie_data(raw_data, parsed_details, stremio_data, detail_html, categ
     }
 
 async def process_single_movie(session, url, raw_movie_data, category_name, semaphore):
-    """Processes detail extraction concurrently with a strict connection limit."""
     async with semaphore:
         detail_res = await fetch_url_async(session, url)
         if detail_res['error'] or detail_res['code'] != 200:
@@ -252,14 +227,12 @@ async def process_single_movie(session, url, raw_movie_data, category_name, sema
         detail_html = detail_res['data']
         unescaped_html = detail_html.replace('\\"', '"').replace('\\/', '/')
         
-        # 1. Advanced Next.js App Router Parsing (Grabs hidden movieDetails object)
         parsed_details = {}
         md_match = re.search(r'"movieDetails"\s*:\s*(\{.*?\})\s*,\s*"(?:suggestions|userIp|similarMovies)"', unescaped_html)
         if md_match:
             try: parsed_details = json.loads(md_match.group(1))
             except: pass
             
-        # Fallback to older Next.js schema if needed
         if not parsed_details:
             next_data_match = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', detail_html, re.DOTALL)
             if next_data_match:
@@ -270,26 +243,24 @@ async def process_single_movie(session, url, raw_movie_data, category_name, sema
                     if next_movies: parsed_details = next_movies[0]
                 except: pass
         
-        # 2. Fetch Optional IMDb Fallback Data (Silent API Call)
         imdb_id = parsed_details.get('imdbId') or raw_movie_data.get('imdbId') or ""
         m_type = parsed_details.get('type') or raw_movie_data.get('type') or "movie"
         stremio_data = await fetch_imdb_metadata(session, imdb_id, m_type)
 
-        # 3. Format Data with Fallbacks
-        formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name, detail_res['headers'])
+        formatted_movie = format_movie_data(raw_movie_data, parsed_details, stremio_data, detail_html, category_name, detail_res['headers'], url)
         
-        if formatted_movie['streamUrl']:
-             log(f"Found Stream: {formatted_movie['title']}", Colors.GREEN, "✓")
+        if formatted_movie:
+             log(f"Verified & Saved: {formatted_movie['title']}", Colors.GREEN, "✓")
              return formatted_movie
         else:
-             log(f"No Stream/Video for: {formatted_movie['title']} - SKIPPING", Colors.WARNING, "!")
+             title_debug = parsed_details.get('title') or "Unknown"
+             log(f"No Video found for: {title_debug} - SKIPPING", Colors.WARNING, "!")
              return None
 
 async def scrape_category_async(base_cat_url, session):
     category_name = get_category_name(base_cat_url)
     log(f"STARTING ASYNC SCRAPE: {category_name}", Colors.HEADER, "🚀")
     
-    # 1. Fetch Initial Page
     res = await fetch_url_async(session, base_cat_url)
     html = res['data']
     
@@ -302,13 +273,11 @@ async def scrape_category_async(base_cat_url, session):
         try: initial_filter = json.loads(filter_match.group(1).replace('\\"', '"'))
         except: pass
 
-    # Dynamic Regex to find the current active Vercel API URL (e.g. v17, v18)
+    # Dynamically find current API URL
     api_base_match = re.search(r'(https://moviesbazar-api-[a-zA-Z0-9-]+\.vercel\.app)', html)
     base_api_url = api_base_match.group(1) if api_base_match else "https://moviesbazar-api-v17.vercel.app"
 
-    # Construct final API URL dynamically
     api_url = f"{base_api_url}/{api_path}" if api_path.startswith('api/v1/movies/') else f"{base_api_url}/api/v1/movies/{api_path}"
-    
     log(f"Detected Dynamic API: {api_url}", Colors.CYAN, "i")
     
     unique_links = {}
@@ -316,7 +285,6 @@ async def scrape_category_async(base_cat_url, session):
     has_more = True
     fails = 0
     
-    # 2. Sequential Paginated API Extraction (Fast process)
     while has_more:
         log(f"Fetching API Page {current_page} for {category_name}...", Colors.BLUE, "↻")
         skip = (current_page - 1) * 40
@@ -368,19 +336,14 @@ async def scrape_category_async(base_cat_url, session):
         log("No links found. Skipping.", Colors.WARNING, "!")
         return
 
-    # 3. High-Speed Concurrent Extraction Phase
     log(f"⚡ Launching High-Speed Concurrent Extraction for {len(unique_links)} movies...", Colors.HEADER, "⚡")
     output_filename = f"{category_name.replace(' ', '_').lower()}.json"
     
-    # Adjust Concurrency Limit (20 is very safe and extremely fast)
     concurrency_limit = 20 
     semaphore = asyncio.Semaphore(concurrency_limit)
     
-    tasks = []
     final_movies_list = []
     items_list = list(unique_links.items())
-    
-    # Batch processing so we save incrementally without losing data!
     batch_size = 200 
     
     for i in range(0, len(items_list), batch_size):
@@ -388,15 +351,11 @@ async def scrape_category_async(base_cat_url, session):
         log(f"Processing batch {i//batch_size + 1} ({len(batch)} items)...", Colors.CYAN, "⚙")
         
         batch_tasks = [process_single_movie(session, url, data, category_name, semaphore) for url, data in batch]
-        
-        # Run the batch concurrently
         results = await asyncio.gather(*batch_tasks)
         
-        # Filter out failed extractions
         valid_results = [res for res in results if res is not None]
         final_movies_list.extend(valid_results)
         
-        # SAVE INCREMENTALLY!
         with open(output_filename, 'w', encoding='utf-8') as f:
             json.dump(final_movies_list, f, indent=4, ensure_ascii=False)
             
@@ -407,26 +366,21 @@ async def scrape_category_async(base_cat_url, session):
 
 async def main():
     target_categories = [
-        "https://www.moviesbazar.tv/browse/category/hollywood",
-        "https://www.moviesbazar.tv/browse/category/new-release",
-        "https://www.moviesbazar.tv/browse/category/hindi-dubbed",
         "https://www.moviesbazar.tv/browse/category/bengali"
     ]
     
     print(f"{Colors.BOLD}{Colors.HEADER}⚡ MoviesBazar ULTRA-FAST ASYNC Scraper Initialized ⚡{Colors.ENDC}")
     print("="*50 + "\n")
     
-    # TCPConnector helps handle multiple concurrent connections without crashing
     connector = aiohttp.TCPConnector(limit=50)
     async with aiohttp.ClientSession(connector=connector) as session:
         for url in target_categories:
             await scrape_category_async(url, session)
-            await asyncio.sleep(2) # Brief pause between giant categories
+            await asyncio.sleep(2) 
 
     log("ALL CATEGORIES CONCURRENTLY SCRAPED SUCCESSFULLY!", Colors.HEADER, "🏆")
 
 if __name__ == "__main__":
-    # Handle event loop policies for Windows compatibility
     if os.name == 'nt':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
