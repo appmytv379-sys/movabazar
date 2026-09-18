@@ -1,1 +1,1427 @@
-[]
+[
+    {
+        "id": "6a89ef93507ba65baecc4fb3",
+        "category": "Bengali",
+        "director": "Pathikrit Basu",
+        "genre": [
+            "Drama",
+            "History",
+            "Action"
+        ],
+        "imdbRating": "8.4",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vT3VllVhSFw2D7t2M91WmM7Dsqc.jpg",
+        "releaseDate": "13-08-2026",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt37707854/img",
+        "status": "on",
+        "storyline": "A biopic of Ananta Singha. Some calls him dacoit, some calls him a rebellion. This adaptation gives the viewer a chance to know him as a whole, a person and as a revolutionary communist leader.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/keu-bole-biplobi-keu-bole-dakat/37707854",
+        "streamType": "live_fetch",
+        "title": "Keu Bole Biplobi, Keu Bole Dakat (2026)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6a63c0c1721afc84cc694f4b",
+        "category": "Bengali",
+        "director": "Azman Rusho",
+        "genre": [
+            "Music",
+            "Musical",
+            "Romance"
+        ],
+        "imdbRating": "5.4",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zbOHBuO8Z0fK0bzLlKvvOoldaQa.jpg",
+        "releaseDate": "27-05-2026",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt41541567/img",
+        "status": "on",
+        "storyline": "Agun overcomes his childhood stage fright to become a world-famous rockstar. But with fame comes addiction, heartbreak, imprisonment, and the devastating loss of his voice. Supported by Aslam's friendship and Meera's love, he struggles to rebuild his life, only to be shattered once again by another tragic incident.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/rockstar/41541567",
+        "streamType": "live_fetch",
+        "title": "Rockstar (2026)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6a15f18636e33253f81fb700",
+        "category": "Bengali",
+        "director": "Tanim Noor",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "imdbRating": "8.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jbH6d8qnBMFgbadEZJuneGhBpoQ.jpg",
+        "releaseDate": "20-03-2026",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt38792109/img",
+        "status": "on",
+        "storyline": "On a foggy winter journey, the Bonolota Express carries strangers burdened by secrets whose lives begin to collide within the train’s confined corridors. As the night unfolds, personal and political crises erupt, exposing hidden grief, moral decay, and moments of unexpected compassion amid chaos and revolt. By dawn, the train moves on, leaving its passengers irrevocably changed by a single journey where illusions collapse and human truths emerge.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/bonolota-express/38792109",
+        "streamType": "live_fetch",
+        "title": "Bonolota Express (2026)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "69326fa2e71c732a93df71e8",
+        "category": "Bengali",
+        "director": "Avijit Sen",
+        "genre": [
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "6.9",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tPU0QGXdK26qDG886gstiP5HQPY.jpg",
+        "releaseDate": "24-12-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt38349049/img",
+        "status": "on",
+        "storyline": "Joy lives in London with his daughter. He wants his parents to stay with them in London, but his father, who runs a hotel in Kolkata, refuses to go to London.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/projapati-2/38349049",
+        "streamType": "live_fetch",
+        "title": "Projapati 2 (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6910eb957780bca40c9f8cc9",
+        "category": "Bengali",
+        "director": "Pratim D. Gupta",
+        "genre": [
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "6.9",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1S4Jlirr3TldceHOOgBZ0FeZeVz.jpg",
+        "releaseDate": "06-11-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt38077601/img",
+        "status": "on",
+        "storyline": "In the bustling, nostalgic lanes of North Kolkata, Sumit Dasgupta, a 40-year-old software engineer, lives a routine-driven life with his teenage daughter, Mohor. Ever since his wife, Supriya, passed away unexpectedly a year ago, Sumit has been struggling to balance his demanding job and single parenthood.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/ranna-baati/38077601",
+        "streamType": "live_fetch",
+        "title": "Ranna Baati (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "690d2fb86c51547aa4a12c67",
+        "category": "Bengali",
+        "director": "Souvik Dey, Siddhartha Chakraborty",
+        "genre": [
+            "Horror"
+        ],
+        "imdbRating": "6.4",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/syBRmA6g7rNEOVk35vNDQtYd4m2.jpg",
+        "releaseDate": "30-10-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt38779817/img",
+        "status": "on",
+        "storyline": "When little Poriimonii returns home from a vacation with a new friend, her family's life begins to spiral into eerie confusion.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/poriimonii/38779817",
+        "streamType": "live_fetch",
+        "title": "Poriimonii (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68cf0fffea407a990f30f6e4",
+        "category": "Bengali",
+        "director": "Dhrubo Banerjee",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "imdbRating": "6.4",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dwYjUdP2RWAgQXjYroKUUgpi1W8.jpg",
+        "releaseDate": "25-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt15891690/img",
+        "status": "on",
+        "storyline": "A mystical tale of Bengal's defining era, where an unlikely hero transforms into a legendary figure through extraordinary deeds and becomes forever woven into the fabric of cultural memory.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/raghu-dakat/15891690",
+        "streamType": "live_fetch",
+        "title": "Raghu Dakat (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68cf152eea407a990f30f72f",
+        "category": "Bengali",
+        "director": "Nandita Roy, Shiboprosad Mukherjee",
+        "genre": [
+            "Thriller"
+        ],
+        "imdbRating": "6.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
+        "releaseDate": "25-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt36132462/img",
+        "status": "on",
+        "storyline": "Months after the failed assassination attempt on President Animesh Chatterjee, investigator Pankaj Sinha and SP Sanjukta Mitra uncover a deadly plot, Mission M2, led by Munir Alam.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/raktabeej-2/36132462",
+        "streamType": "live_fetch",
+        "title": "Raktabeej 2 (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68dbb5eba3635ae1a330a207",
+        "category": "Bengali",
+        "director": "Subhrajit Mitra",
+        "genre": [
+            "History",
+            "Action",
+            "Drama"
+        ],
+        "imdbRating": "5.3",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/eIZ0MUBGtU2bRF6JnwWd0ScaWhq.jpg",
+        "releaseDate": "25-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt27794798/img",
+        "status": "on",
+        "storyline": "Set against the backdrop of British colonial rule, Devi Chowdhurani tells the untold story of India's first female freedom fighter. From a humble villager to a fearless rebel, she rises against oppression with the support of Hindu monks, leading the first armed revolution against the British East India Company. A tale of courage, sacrifice, and resilience, this historical epic brings to life a forgotten chapter of India's fight for freedom.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/devi-chowdhurani/27794798",
+        "streamType": "live_fetch",
+        "title": "Devi Chowdhurani (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68c9e782c48b5c1630be643c",
+        "category": "Bengali",
+        "director": "Rohan Sen",
+        "genre": [
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "0",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/n3sTp5O2D5Bj4EVTS7RldHGXfKq.jpg",
+        "releaseDate": "11-09-2025",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/n3sTp5O2D5Bj4EVTS7RldHGXfKq.jpg",
+        "status": "on",
+        "storyline": "Kanya is an emotional drama that follows sisters Sudipa and Sukanya, who are reunited after 10 years due to their father's illness. The reunion takes a shocking turn when Sudipa discovers her younger sister, Sukanya, is now marrie...",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/kanya/38077586",
+        "streamType": "live_fetch",
+        "title": "Kanya (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68bf6cf389d266be0ca8171e",
+        "category": "Bengali",
+        "director": "Souvik Chakraborty",
+        "genre": [
+            "Fantasy",
+            "Horror",
+            "Thriller"
+        ],
+        "imdbRating": "6.3",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8bjudxdCxuqgdSieCVmWIfO0wk4.jpg",
+        "releaseDate": "04-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt37622942/img",
+        "status": "on",
+        "storyline": "Years ago, there lived a witch called Maya in the dense forest of Kalbuni. She dreamt of being the most powerful witch in the universe. To fulfil her dream, she started the process of summoning the dark lord 'Pishach'. She started kidnapping the new born girls from nearby villages and offered them to the 'mighty fire'.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/devi-ek-pretmanobir-panchali/37622942",
+        "streamType": "live_fetch",
+        "title": "Devi - Ek Pretmanobir Panchali (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68c4b928a2b911df140be22d",
+        "category": "Bengali",
+        "director": "Anthony Jane",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "imdbRating": "3.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aRYuhSUiRLP6ZYK891OQNxCzsOm.jpg",
+        "releaseDate": "04-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt37813796/img",
+        "status": "on",
+        "storyline": "Jhor follows Michael, a suspended officer, on a mission to find two missing girls after his student Jane is mysteriously injured. As he uncovers hidden truths, the search reveals a dark side of society masked by light.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/jhor/37813796",
+        "streamType": "live_fetch",
+        "title": "Jhor (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68b9eb52e80d4e5d0c08113d",
+        "category": "Bengali",
+        "director": "Vicky Zahed",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "imdbRating": "7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ljy6fcxY3U5wCZ28sQmnPNMXj6Z.jpg",
+        "releaseDate": "03-09-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt38047829/img",
+        "status": "on",
+        "storyline": "Azad, a quiet courier with a painful past, kills a criminal by accident and becomes an online hero. Wanting more praise, he keeps targeting bad people. As his actions grow bolder, people compare him to Aka — a mysterious figure from the past known for punishing the guilty.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/series/aka/38047829",
+        "streamType": "live_fetch",
+        "title": "AKA (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68b6b560b6006098487b71b1",
+        "category": "Bengali",
+        "director": "Akash Malakar",
+        "genre": [
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "imdbRating": "4.3",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/j6fdTUStPfK7Mz8yqsmcPDkfzPL.jpg",
+        "releaseDate": "28-08-2025",
+        "sliderUrl": "https://m.media-amazon.com/images/M/MV5BZTNiMTc4MDQtNzU2My00ODk5LWI2YzgtMTQzYThkODExM2MxXkEyXkFqcGc@._V1_.jpg",
+        "status": "on",
+        "storyline": "No storyline available.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/bahurup/36019884",
+        "streamType": "live_fetch",
+        "title": "Bahurup (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68b85c8f72c9fde58f68c885",
+        "category": "Bengali",
+        "director": "Anilava Chattopadhyay, Anilava Chattopadhyay",
+        "genre": [
+            "Biography",
+            "Drama"
+        ],
+        "imdbRating": "9.5",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3gFRK1OahzrjWccOM6XBm98qr31.jpg",
+        "releaseDate": "28-08-2025",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/3gFRK1OahzrjWccOM6XBm98qr31.jpg",
+        "status": "on",
+        "storyline": "In 1960s Kolkata, a determined woman transforms personal setbacks into triumph as she pioneers a revolutionary radio program at Akashvani, touching countless lives.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/bela/38045917",
+        "streamType": "live_fetch",
+        "title": "Bela (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68b2d030a38a790f06161119",
+        "category": "Bengali",
+        "director": "Rabindra Nambiar",
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "imdbRating": "0",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ylW61AbZrFrr8eWCSCyOb6JVUhn.jpg",
+        "releaseDate": "21-08-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt31325655/img",
+        "status": "on",
+        "storyline": "A small-town girl with dreams of love runs away to London, but an unexpected heartbreak forces her to choose between her old crush and the newfound friendship that could change her life forever.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/tobuo-bhalobashi/31325655",
+        "streamType": "live_fetch",
+        "title": "Tobuo Bhalobashi (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "689882c6e2d0ce708208b1ca",
+        "category": "Bengali",
+        "director": "Kaushik Ganguly",
+        "genre": [
+            "Romance",
+            "Thriller",
+            "Drama"
+        ],
+        "imdbRating": "6.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wRENxrQcCXFiMDLFKH0xtHpUgib.jpg",
+        "releaseDate": "13-08-2025",
+        "sliderUrl": "https://images.metahub.space/background/medium/tt6376792/img",
+        "status": "on",
+        "storyline": "Megh is a married person, who works as manager of a tea estate in North Sikkim. In a certain crisis he became jobless and struggles to make ends problems of his life because there are not many options for livelihood around in the ...",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/dhumketu/6376792",
+        "streamType": "live_fetch",
+        "title": "Dhumketu (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6894b0a77ccc117f5e34af1e",
+        "category": "Bengali",
+        "director": "Tanim Noor",
+        "genre": [
+            "Comedy",
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "8.4",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/qZnMTMF7jkFsuoPXlhNQbcebClw.jpg",
+        "releaseDate": "06-08-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt37034643/img",
+        "status": "on",
+        "storyline": "On the eve of Eid, a grumpy, miserly loner Jahangir is visited by three mysterious guests, claiming to be ghosts. As they make him revisit his past, Jahangir is forced to confront the life he has built in bitterness and solitude. A heartwarming tale of regrets, memories and rediscovering love and laughter.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/utshob/37034643",
+        "streamType": "live_fetch",
+        "title": "Utshob (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "688f336892692dd7bdde934a",
+        "category": "Bengali",
+        "director": "Suman Mukhopadhyay",
+        "genre": [
+            "Drama"
+        ],
+        "imdbRating": "7.0",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mcHenHb56QlomsSxD7oJNp9elKZ.jpg",
+        "releaseDate": "31-07-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt33098141/img",
+        "status": "on",
+        "storyline": "Shashi, an urbane doctor, returns to his native village, a place seemingly mired in a backward way of life, for a short visit. As he becomes closely involved with the villagers, Shashi’s short stay threatens to become permanent.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/putulnacher-itikatha/33098141",
+        "streamType": "live_fetch",
+        "title": "Putulnacher Itikatha (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684d514891185e17d040f8dc",
+        "category": "Bengali",
+        "director": "Indraadip Dasgupta",
+        "genre": [
+            "Drama",
+            "Family",
+            "Romance"
+        ],
+        "imdbRating": "6.2",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/orYv1vPk6QRFEDMPlzXhRYXhGkf.jpg",
+        "releaseDate": "12-06-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt37137016/img",
+        "status": "on",
+        "storyline": "In a fading North Calcutta Rajbari, Titli clings to routine after her husband Shaon vanishes. As Durga Puja nears, Megh arrives, an unexpected guest who brings warmth and a painful revel of thought. Amid rituals and memories, unspoken grief surfaces, stirring buried emotions, silent longing, and the ache of unfinished stories.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/grihapravesh/37137016",
+        "streamType": "live_fetch",
+        "title": "Grihapravesh (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684dc8dadd48cb487a53f18a",
+        "category": "Bengali",
+        "director": "Soukarya Ghosal",
+        "genre": [
+            "Fantasy",
+            "Sci-Fi"
+        ],
+        "imdbRating": "7.2",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2tukqFUhBCLhHY9aS840RGuWWuC.jpg",
+        "releaseDate": "12-06-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt29117505/img",
+        "status": "on",
+        "storyline": "A student finds a mysterious stone at a temple and turns to his quirky teacher for help, unleashing supernatural forces that change their lives.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/pokkhirajer-dim/29117505",
+        "streamType": "live_fetch",
+        "title": "Pokkhirajer Dim (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684de1a3dd48cb487a53f1af",
+        "category": "Bengali",
+        "director": "Unknown",
+        "genre": [
+            "Unknown"
+        ],
+        "imdbRating": "0",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bduQjXfhVamYFaVTNddJmw6Eclb.jpg",
+        "releaseDate": "12-06-2025",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/bduQjXfhVamYFaVTNddJmw6Eclb.jpg",
+        "status": "on",
+        "storyline": "No storyline available.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/aapish-the-office/72292997",
+        "streamType": "live_fetch",
+        "title": "Aapish (The Office) (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684d489b91185e17d040f868",
+        "category": "Bengali",
+        "director": "Raihan Rafi",
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "imdbRating": "7.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/81jDsmFwq3GKgFAGqYFan7FHltu.jpg",
+        "releaseDate": "06-06-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt36293840/img",
+        "status": "on",
+        "storyline": "A group of masked assailants storms the office of the country’s top television channel, taking the staff and a prominent minister, who was there for an interview, hostage. While the nation's law enforcement agencies race to uncover the identity of the mastermind behind the attack, the mastermind reveals himself live on the channel’s program, exposing the stories of ordinary people who have fallen victim to high-level corruption. Thus begins a rampage against the injustices of the system.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/taandob/36293840",
+        "streamType": "live_fetch",
+        "title": "Taandob (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684952e5e15b32d82afa303e",
+        "category": "Bengali",
+        "director": "Tathagata Mukherjee",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "imdbRating": "7.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vj6xNjxaERcNNRtQxMFPO0JNYe6.jpg",
+        "releaseDate": "05-06-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt36958465/img",
+        "status": "on",
+        "storyline": "Once, the Chakrabortys of Manikpur were a thriving family of 34, united in laughter, meals, and the grand celebration of Raas. In the 90s, Rajat left for Kolkata to chase his ambitions, leaving behind his wife Annapurna and son Somnath. Raised among his cousins, Somnath grew closer to his grandmother than his mother. When he was twelve, Annapurna succumbed to a terminal illness. Rajat, unaware until his return, was consumed by anger and left Manikpur with his son, vowing never to return.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/raas/36958465",
+        "streamType": "live_fetch",
+        "title": "Raas (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6842d90b93f90c4836637ac7",
+        "category": "Bengali",
+        "director": "Shihab Shaheen",
+        "genre": [
+            "Action",
+            "Romance"
+        ],
+        "imdbRating": "6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/62pYJK98PFFT7HMGCsarVWExw5C.jpg",
+        "releaseDate": "30-05-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt34936199/img",
+        "status": "on",
+        "storyline": "Nishan spent more than twelve years behind bars. The story begins as he steps out of prison, only to find that the world he left behind has changed drastically. Society refuses to accept him as one of its own. Thus begins Nishan's struggle to survive in an unfamiliar world.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/daagi/34936199",
+        "streamType": "live_fetch",
+        "title": "Daagi (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "683de42fc902c05f1ea941f5",
+        "category": "Bengali",
+        "director": "Sayantan Ghosal",
+        "genre": [
+            "Adventure",
+            "Mystery",
+            "Thriller"
+        ],
+        "imdbRating": "7.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7eQ0JqRSBwzvd2ULOiQzpdEXaU0.jpg",
+        "releaseDate": "29-05-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt36733805/img",
+        "status": "on",
+        "storyline": "The adventure that began in Sonar Kella continues. Haunted by visions of a hidden treasure, Mukul Dhars fate is on the line. As danger closes in, Bimal, Rubi, and Kumar set off on a thrilling journey through the secrets of Jaisalmer Fort. Chasing riddles, uncovering legends, and seeking a mythical stone, they venture into a world that could change their lives forever.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/sonar-kellay-jawker-dhan/36733805",
+        "streamType": "live_fetch",
+        "title": "Sonar Kellay Jawker Dhan (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68339ca87cd20ef81c97508d",
+        "category": "Bengali",
+        "director": "Saurav Palodhi",
+        "genre": [
+            "Drama"
+        ],
+        "imdbRating": "7.5",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vLCPuA8AaQMZD13rrR79BSYq7Yy.jpg",
+        "releaseDate": "22-05-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt34365614/img",
+        "status": "on",
+        "storyline": "Babin, Dolly, and Tyre are three slum kids with big dreams of becoming a doctor, nurse, and engineer. When Babin's father falls critically ill, they steal an oxygen cylinder that sets off a chain of events.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/onko-ki-kothin/34365614",
+        "streamType": "live_fetch",
+        "title": "Onko Ki Kothin (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "684ed96141dbae5331a01b8e",
+        "category": "Bengali",
+        "director": "Joydeep Mukherjee",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "imdbRating": "6.3",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rbfhIrIPkL0rGz6dpitdffFM86d.jpg",
+        "releaseDate": "15-05-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt36956307/img",
+        "status": "on",
+        "storyline": "Eken Babu arrives in Benaras with Bapi and Pramatha and soon finds himself entangled in a perplexing mystery. Strange coded messages lead him to a sinister conspiracy threatening the Masaan Holi festival. Racing against time, he must outsmart shadowy figures to save the sacred city from chaos.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/the-eken-benaras-e-bibhishika/36956307",
+        "streamType": "live_fetch",
+        "title": "The Eken: Benaras e Bibhishika (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6825d0abcf23b9786d1e9f38",
+        "category": "Bengali",
+        "director": "Nandita Roy, Shiboprosad Mukherjee",
+        "genre": [
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "7.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lWm7SqfQinMw3IC3KhqObbH9ETO.jpg",
+        "releaseDate": "08-05-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt30318492/img",
+        "status": "on",
+        "storyline": "A modern family drama unfolds around a unique concept an office-based old-age crèche started by the boss's mother. This innovative initiative not only enhances employee productivity but also fosters a more caring and inclusive work environment.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/amar-boss/30318492",
+        "streamType": "live_fetch",
+        "title": "Amar Boss (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6842e47d93f90c4836637b5c",
+        "category": "Bengali",
+        "director": "M Raahim",
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "imdbRating": "6.9",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/h7BQibEW1YzsUWh9ocQjY35Njcv.jpg",
+        "releaseDate": "30-03-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt31951179/img",
+        "status": "on",
+        "storyline": "Liza made a difficult decision at the moment of the birth of her illegitimate child in the hospital. So she had no choice but to abandon the child in the dustbin. As she was leaving the baby in a dumpster on the road behind the hospital in the dark of night, she came face to face with Dr. Tithi—the very doctor who had delivered Liza's baby in the operating theater. Tithi brought her back to the hospital and began to tell her a story. A story intertwined with Tithi herself, a 6-year-old girl named Pakhi, and a wild-hearted man named Johnny.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/jongli/31951179",
+        "streamType": "live_fetch",
+        "title": "Jongli (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "68339f3c7cd20ef81c9750a3",
+        "category": "Bengali",
+        "director": "Dr. Krishnendu Chatterjee",
+        "genre": [
+            "Comedy"
+        ],
+        "imdbRating": "6.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hA46NB5ii9wTdTubKnJAKtpIU5Y.jpg",
+        "releaseDate": "29-03-2025",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt31655124/img",
+        "status": "on",
+        "storyline": "It is a fun filled story of two middle aged fathers who are rivals according to their cultures , and when their children falls in love and tries their hardest subsequently in a simple and crazy way to bring them together to make t...",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/hungamaa-com/31655124",
+        "streamType": "live_fetch",
+        "title": "Hungamaa.Com (2025)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "67c4b58cb91e5c80e505f6d6",
+        "category": "Bengali",
+        "director": "Raj Chakraborty",
+        "genre": [
+            "Family",
+            "Drama"
+        ],
+        "imdbRating": "6.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1GO1AGGkH9JGSw2AAg5SH8z1ahO.jpg",
+        "releaseDate": "19-12-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt34386263/img",
+        "status": "on",
+        "storyline": "What happens when a devoted father is rejected by the son he raised? As he seeks justice in court, will the family heal, or will the divide grow deeper?",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/shontaan/34386263",
+        "streamType": "live_fetch",
+        "title": "Shontaan (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "685a4ceed2578e4cbccbf526",
+        "category": "Bengali",
+        "director": "Soojit Dutta",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "imdbRating": "7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lP6cxFBUVbf3YR2ems4GDllUXaN.jpg",
+        "releaseDate": "19-12-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt30701950/img",
+        "status": "on",
+        "storyline": "Shyam comes from the remote areas of Purulia to work as a laborer in the coal mines of the Damodar Valley. The story of Mohan and Shyam will proceed with their rise, reckoning of friendship.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/khadaan/30701950",
+        "streamType": "live_fetch",
+        "title": "Khadaan (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "670b9d23f39a38af6b47224b",
+        "category": "Bengali",
+        "director": "Srijit Mukherji",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "imdbRating": "6.2",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rWPI60eK2VhzRKllHeJhOTcOzrJ.jpg",
+        "releaseDate": "07-10-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt30630336/img",
+        "status": "on",
+        "storyline": "Tekka is the story of Iqlakh, a janitor who has lost his job and is out to get it back by holding a schoolgirl hostage in a building. ACP Maya comes in, a woman who is trying to conceive. Add to the mix a young journalist pair, Brishti and Tintin, and we have a sentimental thriller in an office building spanning 48 hours, full of melodrama.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/tekka/30630336",
+        "streamType": "live_fetch",
+        "title": "Tekka (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "671020f7d2f244cec3f85392",
+        "category": "Bengali",
+        "director": "Pathikrit Basu",
+        "genre": [
+            "Drama"
+        ],
+        "imdbRating": "6.8",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/n5YgdSc7Hwa6z7JsGIaOCE1k08e.jpg",
+        "releaseDate": "07-10-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt31261183/img",
+        "status": "on",
+        "storyline": "Porimol, a humble factory worker, dreams of changing his luck. After losing his job and facing mounting struggles, something mysterious happens that grants him the ability to predict the future.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/shastri/31261183",
+        "streamType": "live_fetch",
+        "title": "Shastri (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "669028d4fb99829efefc2a8b",
+        "category": "Bengali",
+        "director": "Raihan Rafi",
+        "genre": [
+            "Action",
+            "Crime"
+        ],
+        "imdbRating": "7.3",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lTsgOcRqFvyvkuuYYrNKBtueQJH.jpg",
+        "releaseDate": "16-06-2024",
+        "sliderUrl": "https://images.metahub.space/background/medium/tt30415138/img",
+        "status": "on",
+        "storyline": "Follows a born killer who rises to power and becomes the biggest toofan",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/toofan/30415138",
+        "streamType": "live_fetch",
+        "title": "Toofan (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "67c5a62899be772ee50dd0b0",
+        "category": "Bengali",
+        "director": "Anshuman Pratyush",
+        "genre": [
+            "Comedy",
+            "Romance",
+            "Thriller"
+        ],
+        "imdbRating": "5.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5vtb6ZT7HCl9rJhRrvXduin6LF8.jpg",
+        "releaseDate": "13-02-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt30490361/img",
+        "status": "on",
+        "storyline": "A kidnapper and a crafty thief get tangled in a chaotic kidnapping mission in London, but their unlikely romance and hilarious schemes lead to unexpected outcomes for everyone involved.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/babu-shona/30490361",
+        "streamType": "live_fetch",
+        "title": "Babu Shona (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65acce837f2d67ad6aab4944",
+        "category": "Bengali",
+        "director": "Bratya Basu",
+        "genre": [
+            "Comedy",
+            "Thriller"
+        ],
+        "imdbRating": "5.9",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/qfyNt7wMeYpbjVU5vt5ZVfeSy98.jpg",
+        "releaseDate": "17-01-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt28670752/img",
+        "status": "on",
+        "storyline": "The notorious Bimal Mandal, who ruled the Rishra-Hindmotor-Konnagar area for years, gets arrested by Dibakar Sen. However, he gets away due to lack of evidence. Soon, Dibakar and Hubba, seem to become alter egos of one another and morality gets blurred.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/hubba/28670752",
+        "streamType": "live_fetch",
+        "title": "Hubba (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65b130e65b23eef6e5791492",
+        "category": "Bengali",
+        "director": "Abhijit SriDas",
+        "genre": [
+            "Drama"
+        ],
+        "imdbRating": "8.7",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1py0lYz9p7BZU8BpesYTfx2WuoF.jpg",
+        "releaseDate": "11-01-2024",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt30843854/img",
+        "status": "on",
+        "storyline": "Amid the celebratory atmosphere of Durga Puja, after an unexpected tragedy, Alokananda, strives to maintain the illusion of happiness. As Aloka confronts the self-centeredness within their relationships, a poignant journey unfolds.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/bijoyar-pore/30843854",
+        "streamType": "live_fetch",
+        "title": "Bijoyar Pore (2024)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "66ba511667d19bb34911cb01",
+        "category": "Bengali",
+        "director": "Avijit Sen",
+        "genre": [
+            "Drama"
+        ],
+        "imdbRating": "5.5",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/6yCCMXpr1gkIIZkdOqJ1f9pQYNs.jpg",
+        "releaseDate": "21-12-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt29923681/img",
+        "status": "on",
+        "storyline": "Deepak Pradhan, a young police officer, gets transferred to North Bengal where his junior officers are involved in corrupt practices. When disturbing events from the past start to surface and the pressure builds, will Deepak be able to hold on to his principles to save his integrity and loved ones?",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/pradhan/29923681",
+        "streamType": "live_fetch",
+        "title": "Pradhan (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65a16280a323f7eb1b28982a",
+        "category": "Bengali",
+        "director": "Srijit Mukherji",
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "imdbRating": "5.5",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/i8OfM0YRzUhNjEusvoK2PaCOls4.jpg",
+        "releaseDate": "20-10-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt27561990/img",
+        "status": "on",
+        "storyline": "What happens when a serial killer terrorizes the city of Kolkata by mirroring the mythological stories of Vishnu and his ten avatars in his killing methods? A prequel crossover of Baishe Srabon and Vinci Da.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/dasham-avatar/27561990",
+        "streamType": "live_fetch",
+        "title": "Dasham Avatar (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65a16ba8a323f7eb1b28988b",
+        "category": "Bengali",
+        "director": "Arindam Sil",
+        "genre": [
+            "Adventure",
+            "Mystery",
+            "Thriller"
+        ],
+        "imdbRating": "3.8",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lAQiShXZzxN40FnG4Dyrq0RoeFB.jpg",
+        "releaseDate": "19-10-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt28783466/img",
+        "status": "on",
+        "storyline": "Jongole Mitin Mashi is based on a story of anti-poaching of elephants and depicts the fight of Mitin against the enemies of the forest. Sequel to the 2019 detective thriller Mitin Mashi.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/jongole-mitin-mashi/28783466",
+        "streamType": "live_fetch",
+        "title": "Jongole Mitin Mashi (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65a16ccda323f7eb1b289897",
+        "category": "Bengali",
+        "director": "Shiboprosad Mukherjee, Nandita Roy",
+        "genre": [
+            "Thriller"
+        ],
+        "imdbRating": "7.8",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pZTeEjNwG57KCil9pkyQQCbRaPq.jpg",
+        "releaseDate": "19-10-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt28513338/img",
+        "status": "on",
+        "storyline": "A thriller revolving around a sudden blast in a Khagragarh firecracker unit, some 70 km away from then president of India's house, ahead of Durga Puja in 2014. Is there more than meets the eye?",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/raktabeej/28513338",
+        "streamType": "live_fetch",
+        "title": "Raktabeej (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65ae4c2b30c22814fe42c76e",
+        "category": "Bengali",
+        "director": "Anthony Jane",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "imdbRating": "7.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://m.media-amazon.com/images/M/MV5BZTEyNjRjYTgtNzI5ZC00ODMyLWE4NzUtMjM1NDkyODgxZjE5XkEyXkFqcGdeQXVyOTc5MjUzNjg@._V1_SX300.jpg",
+        "releaseDate": "21-09-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt29079885/img",
+        "status": "on",
+        "storyline": "A clerk named Sourav is busy with his boring job. One day, he gets a chance to meet his soulmate, Joyeeta, in a different environment. He struggles to meet her every day at the same time. But a mishap occurs which leads them to struggle to meet forever.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/kothay-tumi/29079885",
+        "streamType": "live_fetch",
+        "title": "Kothay Tumi (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "69a53a73070ea7822334a497",
+        "category": "Bengali",
+        "director": "Unknown",
+        "genre": [
+            "Crime"
+        ],
+        "imdbRating": "6.8",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rMrVwQ96I4NC8cdsmHe7b65k1WA.jpg",
+        "releaseDate": "10-08-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt28289518/img",
+        "status": "on",
+        "storyline": "Crowds of people in their Easter finery parade on the boardwalk near Green's Hotel, and near a pier in Atlantic City. Some people ride in stroller chairs, one man pushes a baby carriage, and the ladies hold their hats to keep them from being blown off in the wind.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/abar-proloy/28289518",
+        "streamType": "live_fetch",
+        "title": "Abar Proloy (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "65c4cfc71336f64ee64485db",
+        "category": "Bengali",
+        "director": "Rajesh Ganguly",
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "imdbRating": "7.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lrRSM0c25n3WpZpLXvaRNmyyieT.jpg",
+        "releaseDate": "20-04-2023",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt19712072/img",
+        "status": "on",
+        "storyline": "The movie revolves around Chengiz, an underworld mafia from the 1970s to the mid-90s that ruled the streets of Calcutta.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/chengiz/19712072",
+        "streamType": "live_fetch",
+        "title": "Chengiz (2023)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "66b7c1c3900be65984e7202e",
+        "category": "Bengali",
+        "director": "Dhrubo Banerjee",
+        "genre": [
+            "Adventure"
+        ],
+        "imdbRating": "6.8",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/y5UsFPvv8TyFUWG2F2wEgfmkIs5.jpg",
+        "releaseDate": "26-04-2018",
+        "sliderUrl": "https://images.metahub.space/background/medium/tt8374266/img",
+        "status": "on",
+        "storyline": "Abir and his companions visit his ancestral mansion only to find that his dead uncle has left behind a series of clues for him to unearth the hidden treasure of Mughal prince Shah Shuja kept secured within the property.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/guptodhoner-sondhane/8374266",
+        "streamType": "live_fetch",
+        "title": "Guptodhoner Sondhane (2018)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6a2b035eb478ee5368a78ef0",
+        "category": "Bengali",
+        "director": "Dipankar Dipon",
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "imdbRating": "7.6",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/uWcAKssd7VhOzutxyyWGW26xPAX.jpg",
+        "releaseDate": "19-10-2017",
+        "sliderUrl": "https://images.metahub.space/background/medium/tt5534436/img",
+        "status": "on",
+        "storyline": "An anonymous criminal gang plot a series attack in Dhaka City and three young police officers work on this.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/dhaka-attack/5534436",
+        "streamType": "live_fetch",
+        "title": "Dhaka Attack (2017)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "67113e2755daaffe4ca895d3",
+        "category": "Bengali",
+        "director": "Amitabh Reza Chowdhury",
+        "genre": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "imdbRating": "8.9",
+        "imdbVotes": 0,
+        "language": "Bengali",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hlcN8exK6HXn3rav6MOZyL90XYW.jpg",
+        "releaseDate": "30-09-2016",
+        "sliderUrl": "https://images.metahub.space/background/medium/tt5354160/img",
+        "status": "on",
+        "storyline": "A struggling actor becomes a professional impostor, hired to impersonate people for financial gain, but as he delves deeper into his work he becomes embroiled in trouble that threatens to unravel his life.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/aynabaji/5354160",
+        "streamType": "live_fetch",
+        "title": "Aynabaji (2016)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    }
+]
