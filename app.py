@@ -366,7 +366,10 @@ async def scrape_category_async(base_cat_url, session):
 
 async def main():
     target_categories = [
-        "https://www.moviesbazar.tv/browse/category/bengali"
+        "https://www.moviesbazar.tv/browse/category/bengali",
+        "https://www.moviesbazar.tv/browse/category/hollywood",
+        "https://www.moviesbazar.tv/browse/category/bollywood",
+        "https://www.moviesbazar.tv/browse/category/south"
     ]
     
     print(f"{Colors.BOLD}{Colors.HEADER}⚡ MoviesBazar ULTRA-FAST ASYNC Scraper Initialized ⚡{Colors.ENDC}")
