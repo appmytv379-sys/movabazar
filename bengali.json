@@ -22,7 +22,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -52,7 +52,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -81,7 +81,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -91,7 +91,7 @@
     {
         "id": "69326fa2e71c732a93df71e8",
         "category": "Bengali",
-        "director": "Avijit Sen",
+        "director": "Unknown",
         "genre": [
             "Family",
             "Drama"
@@ -101,16 +101,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/tPU0QGXdK26qDG886gstiP5HQPY.jpg",
         "releaseDate": "24-12-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt38349049/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/tPU0QGXdK26qDG886gstiP5HQPY.jpg",
         "status": "on",
-        "storyline": "Joy lives in London with his daughter. He wants his parents to stay with them in London, but his father, who runs a hotel in Kolkata, refuses to go to London.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/projapati-2/38349049",
         "streamType": "live_fetch",
         "title": "Projapati 2 (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -139,7 +139,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -149,25 +149,25 @@
     {
         "id": "690d2fb86c51547aa4a12c67",
         "category": "Bengali",
-        "director": "Souvik Dey, Siddhartha Chakraborty",
+        "director": "Unknown",
         "genre": [
             "Horror"
         ],
-        "imdbRating": "6.4",
+        "imdbRating": "0",
         "imdbVotes": 0,
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/syBRmA6g7rNEOVk35vNDQtYd4m2.jpg",
         "releaseDate": "30-10-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt38779817/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/syBRmA6g7rNEOVk35vNDQtYd4m2.jpg",
         "status": "on",
-        "storyline": "When little Poriimonii returns home from a vacation with a new friend, her family's life begins to spiral into eerie confusion.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/poriimonii/38779817",
         "streamType": "live_fetch",
         "title": "Poriimonii (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -197,7 +197,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -207,7 +207,7 @@
     {
         "id": "68cf152eea407a990f30f72f",
         "category": "Bengali",
-        "director": "Nandita Roy, Shiboprosad Mukherjee",
+        "director": "Unknown",
         "genre": [
             "Thriller"
         ],
@@ -216,16 +216,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
         "releaseDate": "25-09-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt36132462/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/9MqXT0ELX5xEhZC1lBERQjOuihy.jpg",
         "status": "on",
-        "storyline": "Months after the failed assassination attempt on President Animesh Chatterjee, investigator Pankaj Sinha and SP Sanjukta Mitra uncover a deadly plot, Mission M2, led by Munir Alam.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/raktabeej-2/36132462",
         "streamType": "live_fetch",
         "title": "Raktabeej 2 (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -255,7 +255,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -284,7 +284,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -314,7 +314,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -324,7 +324,7 @@
     {
         "id": "68c4b928a2b911df140be22d",
         "category": "Bengali",
-        "director": "Anthony Jane",
+        "director": "Unknown",
         "genre": [
             "Mystery",
             "Thriller"
@@ -334,16 +334,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/aRYuhSUiRLP6ZYK891OQNxCzsOm.jpg",
         "releaseDate": "04-09-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt37813796/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/aRYuhSUiRLP6ZYK891OQNxCzsOm.jpg",
         "status": "on",
-        "storyline": "Jhor follows Michael, a suspended officer, on a mission to find two missing girls after his student Jane is mysteriously injured. As he uncovers hidden truths, the search reveals a dark side of society masked by light.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/jhor/37813796",
         "streamType": "live_fetch",
         "title": "Jhor (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -353,7 +353,7 @@
     {
         "id": "68b9eb52e80d4e5d0c08113d",
         "category": "Bengali",
-        "director": "Vicky Zahed",
+        "director": "Unknown",
         "genre": [
             "Crime",
             "Drama",
@@ -364,16 +364,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/ljy6fcxY3U5wCZ28sQmnPNMXj6Z.jpg",
         "releaseDate": "03-09-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt38047829/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/ljy6fcxY3U5wCZ28sQmnPNMXj6Z.jpg",
         "status": "on",
-        "storyline": "Azad, a quiet courier with a painful past, kills a criminal by accident and becomes an online hero. Wanting more praise, he keeps targeting bad people. As his actions grow bolder, people compare him to Aka — a mysterious figure from the past known for punishing the guilty.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/series/aka/38047829",
         "streamType": "live_fetch",
         "title": "AKA (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -403,7 +403,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -432,7 +432,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -461,7 +461,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -521,7 +521,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -549,7 +549,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -579,7 +579,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -608,7 +608,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -636,7 +636,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -646,7 +646,7 @@
     {
         "id": "684d489b91185e17d040f868",
         "category": "Bengali",
-        "director": "Raihan Rafi",
+        "director": "Unknown",
         "genre": [
             "Action",
             "Thriller"
@@ -656,16 +656,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/81jDsmFwq3GKgFAGqYFan7FHltu.jpg",
         "releaseDate": "06-06-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt36293840/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/81jDsmFwq3GKgFAGqYFan7FHltu.jpg",
         "status": "on",
-        "storyline": "A group of masked assailants storms the office of the country’s top television channel, taking the staff and a prominent minister, who was there for an interview, hostage. While the nation's law enforcement agencies race to uncover the identity of the mastermind behind the attack, the mastermind reveals himself live on the channel’s program, exposing the stories of ordinary people who have fallen victim to high-level corruption. Thus begins a rampage against the injustices of the system.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/taandob/36293840",
         "streamType": "live_fetch",
         "title": "Taandob (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -694,7 +694,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -723,7 +723,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -753,7 +753,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -763,25 +763,25 @@
     {
         "id": "68339ca87cd20ef81c97508d",
         "category": "Bengali",
-        "director": "Saurav Palodhi",
+        "director": "Unknown",
         "genre": [
             "Drama"
         ],
-        "imdbRating": "7.5",
+        "imdbRating": "0",
         "imdbVotes": 0,
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/vLCPuA8AaQMZD13rrR79BSYq7Yy.jpg",
         "releaseDate": "22-05-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt34365614/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/vLCPuA8AaQMZD13rrR79BSYq7Yy.jpg",
         "status": "on",
-        "storyline": "Babin, Dolly, and Tyre are three slum kids with big dreams of becoming a doctor, nurse, and engineer. When Babin's father falls critically ill, they steal an oxygen cylinder that sets off a chain of events.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/onko-ki-kothin/34365614",
         "streamType": "live_fetch",
         "title": "Onko Ki Kothin (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -810,7 +810,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -820,19 +820,19 @@
     {
         "id": "6825d0abcf23b9786d1e9f38",
         "category": "Bengali",
-        "director": "Nandita Roy, Shiboprosad Mukherjee",
+        "director": "Unknown",
         "genre": [
             "Family",
             "Drama"
         ],
-        "imdbRating": "7.6",
+        "imdbRating": "0",
         "imdbVotes": 0,
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/lWm7SqfQinMw3IC3KhqObbH9ETO.jpg",
         "releaseDate": "08-05-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt30318492/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/lWm7SqfQinMw3IC3KhqObbH9ETO.jpg",
         "status": "on",
-        "storyline": "A modern family drama unfolds around a unique concept an office-based old-age crèche started by the boss's mother. This innovative initiative not only enhances employee productivity but also fosters a more caring and inclusive work environment.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/amar-boss/30318492",
         "streamType": "live_fetch",
         "title": "Amar Boss (2025)",
@@ -849,7 +849,7 @@
     {
         "id": "6842e47d93f90c4836637b5c",
         "category": "Bengali",
-        "director": "M Raahim",
+        "director": "Unknown",
         "genre": [
             "Action",
             "Thriller"
@@ -859,16 +859,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/h7BQibEW1YzsUWh9ocQjY35Njcv.jpg",
         "releaseDate": "30-03-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt31951179/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/h7BQibEW1YzsUWh9ocQjY35Njcv.jpg",
         "status": "on",
-        "storyline": "Liza made a difficult decision at the moment of the birth of her illegitimate child in the hospital. So she had no choice but to abandon the child in the dustbin. As she was leaving the baby in a dumpster on the road behind the hospital in the dark of night, she came face to face with Dr. Tithi—the very doctor who had delivered Liza's baby in the operating theater. Tithi brought her back to the hospital and began to tell her a story. A story intertwined with Tithi herself, a 6-year-old girl named Pakhi, and a wild-hearted man named Johnny.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/jongli/31951179",
         "streamType": "live_fetch",
         "title": "Jongli (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -878,25 +878,25 @@
     {
         "id": "68339f3c7cd20ef81c9750a3",
         "category": "Bengali",
-        "director": "Dr. Krishnendu Chatterjee",
+        "director": "Unknown",
         "genre": [
             "Comedy"
         ],
-        "imdbRating": "6.7",
+        "imdbRating": "0",
         "imdbVotes": 0,
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/hA46NB5ii9wTdTubKnJAKtpIU5Y.jpg",
         "releaseDate": "29-03-2025",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt31655124/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/hA46NB5ii9wTdTubKnJAKtpIU5Y.jpg",
         "status": "on",
-        "storyline": "It is a fun filled story of two middle aged fathers who are rivals according to their cultures , and when their children falls in love and tries their hardest subsequently in a simple and crazy way to bring them together to make t...",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/hungamaa-com/31655124",
         "streamType": "live_fetch",
         "title": "Hungamaa.Com (2025)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -906,7 +906,7 @@
     {
         "id": "67c4b58cb91e5c80e505f6d6",
         "category": "Bengali",
-        "director": "Raj Chakraborty",
+        "director": "Unknown",
         "genre": [
             "Family",
             "Drama"
@@ -916,16 +916,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/1GO1AGGkH9JGSw2AAg5SH8z1ahO.jpg",
         "releaseDate": "19-12-2024",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt34386263/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/1GO1AGGkH9JGSw2AAg5SH8z1ahO.jpg",
         "status": "on",
-        "storyline": "What happens when a devoted father is rejected by the son he raised? As he seeks justice in court, will the family heal, or will the divide grow deeper?",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/shontaan/34386263",
         "streamType": "live_fetch",
         "title": "Shontaan (2024)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -955,7 +955,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -965,7 +965,7 @@
     {
         "id": "670b9d23f39a38af6b47224b",
         "category": "Bengali",
-        "director": "Srijit Mukherji",
+        "director": "Unknown",
         "genre": [
             "Drama",
             "Thriller"
@@ -975,16 +975,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/rWPI60eK2VhzRKllHeJhOTcOzrJ.jpg",
         "releaseDate": "07-10-2024",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt30630336/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/rWPI60eK2VhzRKllHeJhOTcOzrJ.jpg",
         "status": "on",
-        "storyline": "Tekka is the story of Iqlakh, a janitor who has lost his job and is out to get it back by holding a schoolgirl hostage in a building. ACP Maya comes in, a woman who is trying to conceive. Add to the mix a young journalist pair, Brishti and Tintin, and we have a sentimental thriller in an office building spanning 48 hours, full of melodrama.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/tekka/30630336",
         "streamType": "live_fetch",
         "title": "Tekka (2024)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1012,7 +1012,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1041,7 +1041,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1071,7 +1071,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1100,7 +1100,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1128,7 +1128,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1156,7 +1156,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1195,7 +1195,7 @@
     {
         "id": "65a16ba8a323f7eb1b28988b",
         "category": "Bengali",
-        "director": "Arindam Sil",
+        "director": "Unknown",
         "genre": [
             "Adventure",
             "Mystery",
@@ -1206,9 +1206,9 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/lAQiShXZzxN40FnG4Dyrq0RoeFB.jpg",
         "releaseDate": "19-10-2023",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt28783466/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/lAQiShXZzxN40FnG4Dyrq0RoeFB.jpg",
         "status": "on",
-        "storyline": "Jongole Mitin Mashi is based on a story of anti-poaching of elephants and depicts the fight of Mitin against the enemies of the forest. Sequel to the 2019 detective thriller Mitin Mashi.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/jongole-mitin-mashi/28783466",
         "streamType": "live_fetch",
         "title": "Jongole Mitin Mashi (2023)",
@@ -1225,7 +1225,7 @@
     {
         "id": "65a16ccda323f7eb1b289897",
         "category": "Bengali",
-        "director": "Shiboprosad Mukherjee, Nandita Roy",
+        "director": "Nandita Roy, Shiboprosad Mukherjee",
         "genre": [
             "Thriller"
         ],
@@ -1243,7 +1243,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1300,7 +1300,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1310,7 +1310,7 @@
     {
         "id": "65c4cfc71336f64ee64485db",
         "category": "Bengali",
-        "director": "Rajesh Ganguly",
+        "director": "Unknown",
         "genre": [
             "Action",
             "Crime",
@@ -1321,16 +1321,16 @@
         "language": "Bengali",
         "posterUrl": "https://image.tmdb.org/t/p/w500/lrRSM0c25n3WpZpLXvaRNmyyieT.jpg",
         "releaseDate": "20-04-2023",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt19712072/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/lrRSM0c25n3WpZpLXvaRNmyyieT.jpg",
         "status": "on",
-        "storyline": "The movie revolves around Chengiz, an underworld mafia from the 1970s to the mid-90s that ruled the streets of Calcutta.",
+        "storyline": "No storyline available.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/chengiz/19712072",
         "streamType": "live_fetch",
         "title": "Chengiz (2023)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1387,7 +1387,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1417,7 +1417,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
