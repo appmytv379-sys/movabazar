@@ -369,6 +369,7 @@ async def main():
         "https://www.moviesbazar.tv/browse/category/bengali",
         "https://www.moviesbazar.tv/browse/category/hollywood",
         "https://www.moviesbazar.tv/browse/category/bollywood",
+        "https://www.moviesbazar.tv/browse/recently-added",
         "https://www.moviesbazar.tv/browse/category/south"
     ]
     
