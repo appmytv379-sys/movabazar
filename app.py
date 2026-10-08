@@ -369,10 +369,8 @@ async def main():
         "https://www.moviesbazar.tv/browse/category/bengali",
         "https://www.moviesbazar.tv/browse/category/hollywood",
         "https://www.moviesbazar.tv/browse/category/bollywood",
-        "https://www.moviesbazar.tv/browse/recently-added",
-        "https://www.moviesbazar.tv/browse/latest/hollywood",
-        "https://www.moviesbazar.tv/browse/latest/bollywood",
-        "https://www.moviesbazar.tv/browse/latest/south",
+        "https://www.moviesbazar.tv/browse/category/hindi-dubbed",
+        "https://www.moviesbazar.tv/browse/category/new-release",
         "https://www.moviesbazar.tv/browse/category/south"
     ]
     
