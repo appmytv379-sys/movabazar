@@ -370,6 +370,9 @@ async def main():
         "https://www.moviesbazar.tv/browse/category/hollywood",
         "https://www.moviesbazar.tv/browse/category/bollywood",
         "https://www.moviesbazar.tv/browse/recently-added",
+        "https://www.moviesbazar.tv/browse/latest/hollywood",
+        "https://www.moviesbazar.tv/browse/latest/bollywood",
+        "https://www.moviesbazar.tv/browse/latest/south",
         "https://www.moviesbazar.tv/browse/category/south"
     ]
     
