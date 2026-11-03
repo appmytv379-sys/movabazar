@@ -22,7 +22,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -37,7 +37,7 @@
             "Romance",
             "Comedy"
         ],
-        "imdbRating": "0",
+        "imdbRating": "5.8",
         "imdbVotes": 0,
         "language": "Hindi",
         "posterUrl": "https://image.tmdb.org/t/p/w500/a3FIRJ8wTMWEmgQ5lWNjcMPaovZ.jpg",
@@ -51,7 +51,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -66,7 +66,7 @@
             "Romance",
             "Drama"
         ],
-        "imdbRating": "0",
+        "imdbRating": "5.6",
         "imdbVotes": 0,
         "language": "Hindi Dubbed",
         "posterUrl": "https://image.tmdb.org/t/p/w500/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
@@ -80,7 +80,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -109,7 +109,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -139,7 +139,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -168,7 +168,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -178,7 +178,7 @@
     {
         "id": "6add2fc17dd55aa0f48c43ef",
         "category": "New Release",
-        "director": "Unknown",
+        "director": "Ashish Panda",
         "genre": [
             "Drama",
             "Romance"
@@ -190,14 +190,14 @@
         "releaseDate": "22-10-2026",
         "sliderUrl": "https://live.metahub.space/background/medium/tt46083105/img",
         "status": "on",
-        "storyline": "Two hearts face danger, action, and adventure as their love is tested by unexpected twists. Together, they fight to overcome every struggle and keep their passion alive.",
+        "storyline": "Tum Mere Ho is a heartfelt romance starring Gurmeet Choudhary and Isha Malviya, exploring love, emotions, and the unexpected turns that bring two hearts together.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/tum-mere-ho/46083105",
         "streamType": "live_fetch",
         "title": "Tum Mere Ho (2026)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -255,7 +255,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -283,7 +283,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -312,7 +312,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -342,7 +342,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -373,7 +373,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -401,7 +401,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -430,7 +430,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -519,7 +519,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -548,7 +548,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -578,7 +578,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -607,7 +607,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -637,7 +637,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -667,7 +667,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -697,7 +697,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -726,7 +726,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -755,7 +755,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -784,7 +784,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -844,7 +844,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -874,7 +874,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -903,7 +903,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -962,7 +962,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -993,7 +993,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1023,7 +1023,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1053,7 +1053,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1113,7 +1113,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1143,7 +1143,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1172,7 +1172,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1201,7 +1201,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1230,7 +1230,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1289,7 +1289,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1319,7 +1319,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1348,7 +1348,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1377,7 +1377,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1405,7 +1405,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1434,7 +1434,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1464,7 +1464,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1474,7 +1474,7 @@
     {
         "id": "6ae78e44e0a77fc5cbe079c2",
         "category": "New Release",
-        "director": "Thambidurai",
+        "director": "Unknown",
         "genre": [
             "Comedy",
             "Thriller"
@@ -1493,7 +1493,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1552,7 +1552,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1581,7 +1581,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1611,7 +1611,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1641,7 +1641,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1655,7 +1655,7 @@
         "genre": [
             "Drama"
         ],
-        "imdbRating": "7.5",
+        "imdbRating": "7.6",
         "imdbVotes": 0,
         "language": "Hindi",
         "posterUrl": "https://image.tmdb.org/t/p/w500/hbsXYxMLJbMFgaCZ1deFpGiMUI1.jpg",
@@ -1669,7 +1669,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1699,7 +1699,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1729,7 +1729,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1759,7 +1759,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1788,7 +1788,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1848,7 +1848,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1878,7 +1878,37 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site"
+        }
+    },
+    {
+        "id": "6ae851f60443714a1b52fb88",
+        "category": "New Release",
+        "director": "Shashank Yeleti",
+        "genre": [
+            "Comedy",
+            "Family",
+            "Fantasy"
+        ],
+        "imdbRating": "5.8",
+        "imdbVotes": 0,
+        "language": "Hindi Dubbed",
+        "posterUrl": "https://image.tmdb.org/t/p/w500/A0uqqpeLhGfOsW6muky7xvLd8Qf.jpg",
+        "releaseDate": "10-09-2026",
+        "sliderUrl": "https://live.metahub.space/background/medium/tt31841170/img",
+        "status": "on",
+        "storyline": "Suri, a magician, accidentally makes a young girl vanish with a spell. The girl, revealed to be a genie who grants wishes, explores the city and unleashes her powers when angered.",
+        "streamUrl": "https://www.moviesbazar.tv/watch/movie/don-t-trouble-the-trouble/31841170",
+        "streamType": "live_fetch",
+        "title": "Don't Trouble the Trouble (2026)",
+        "headers": {
+            "referer": "https://www.moviesbazar.tv/",
+            "origin": "https://www.moviesbazar.tv",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1907,7 +1937,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1936,7 +1966,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -1996,7 +2026,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2115,7 +2145,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2174,7 +2204,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2233,7 +2263,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2293,7 +2323,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2323,7 +2353,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2352,7 +2382,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2412,7 +2442,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2442,7 +2472,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2472,7 +2502,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2501,7 +2531,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2531,7 +2561,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2561,7 +2591,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2591,7 +2621,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2620,7 +2650,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2680,7 +2710,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2739,7 +2769,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2768,7 +2798,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2798,7 +2828,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2828,7 +2858,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2886,7 +2916,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2916,7 +2946,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -2975,7 +3005,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3006,7 +3036,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3036,7 +3066,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3093,7 +3123,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3153,7 +3183,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3183,7 +3213,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3214,7 +3244,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3274,7 +3304,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3304,7 +3334,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3334,7 +3364,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3364,7 +3394,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3423,7 +3453,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3453,7 +3483,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3483,7 +3513,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3541,7 +3571,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3570,7 +3600,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3600,7 +3630,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3631,7 +3661,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3661,7 +3691,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3689,7 +3719,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3718,7 +3748,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3748,7 +3778,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3778,7 +3808,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3808,7 +3838,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3838,7 +3868,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3868,7 +3898,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3898,7 +3928,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3956,7 +3986,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -3985,7 +4015,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4016,7 +4046,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4045,7 +4075,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4055,7 +4085,7 @@
     {
         "id": "6a6329f5d4df43f7420b0a7c",
         "category": "New Release",
-        "director": "Ejaz Gulab",
+        "director": "Unknown",
         "genre": [
             "Comedy",
             "Drama"
@@ -4065,16 +4095,16 @@
         "language": "Hindi",
         "posterUrl": "https://image.tmdb.org/t/p/w500/1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
         "releaseDate": "23-07-2026",
-        "sliderUrl": "https://live.metahub.space/background/medium/tt40856520/img",
+        "sliderUrl": "https://image.tmdb.org/t/p/w500/1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
         "status": "on",
-        "storyline": "Home Minister Janardhan Jagirdarand chief Minister Anna Saheb are much concerned over the criminal activities of underworld dons Rawal and Rauf Lala. Rawal is operating from Bangkok while Rauf supervises his gang from Mumbai. The famous Encounter Squad is activated to counter the gangsters and restore peace in the area. The formidable Sadhu Agashe (Nana Patekar) is requested to take charge of the peace-keeping mission. At first he is reluctant but after continuous insistence, he agrees to launch a counter attack against Rawal and Lala Rauf gangs and the action begins.",
+        "storyline": "A relaxed principal tries to reform a failing public school, triggering a messy transformation as misfit teachers work to repair the system one lesson at a time.",
         "streamUrl": "https://www.moviesbazar.tv/watch/movie/adarsh-baal-vidyalaya/40856520",
         "streamType": "live_fetch",
         "title": "Adarsh Baal Vidyalaya (2026)",
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4131,7 +4161,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4159,7 +4189,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4188,7 +4218,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4216,7 +4246,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4244,7 +4274,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4274,7 +4304,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4304,7 +4334,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4334,7 +4364,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4363,7 +4393,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4393,7 +4423,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4423,7 +4453,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4453,7 +4483,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4512,7 +4542,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4540,7 +4570,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4569,7 +4599,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4598,7 +4628,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4655,7 +4685,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4684,7 +4714,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4743,7 +4773,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4772,7 +4802,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4801,7 +4831,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4831,7 +4861,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4860,7 +4890,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4890,7 +4920,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4920,7 +4950,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4950,7 +4980,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -4980,7 +5010,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5008,7 +5038,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5038,7 +5068,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5067,7 +5097,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5096,7 +5126,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5126,7 +5156,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5156,7 +5186,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5186,7 +5216,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5216,7 +5246,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5246,7 +5276,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5276,7 +5306,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5305,7 +5335,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5333,7 +5363,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5392,7 +5422,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5423,7 +5453,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5453,7 +5483,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5483,7 +5513,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5513,7 +5543,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5541,7 +5571,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5571,7 +5601,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5599,7 +5629,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5627,7 +5657,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5657,7 +5687,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5687,7 +5717,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5746,7 +5776,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5804,7 +5834,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5834,7 +5864,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5864,7 +5894,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5893,7 +5923,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5923,7 +5953,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -5982,7 +6012,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6013,7 +6043,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6043,7 +6073,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6072,7 +6102,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6102,7 +6132,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6132,7 +6162,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6160,7 +6190,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6189,7 +6219,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6219,7 +6249,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6248,7 +6278,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6307,7 +6337,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6337,7 +6367,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6367,7 +6397,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6397,7 +6427,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6427,7 +6457,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6455,7 +6485,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6485,7 +6515,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6513,7 +6543,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6543,7 +6573,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6573,7 +6603,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6602,7 +6632,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6631,7 +6661,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6689,7 +6719,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6719,7 +6749,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6749,7 +6779,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6778,7 +6808,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6809,7 +6839,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6838,7 +6868,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6867,7 +6897,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6897,7 +6927,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6927,7 +6957,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6956,7 +6986,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -6986,7 +7016,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7015,7 +7045,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7045,7 +7075,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7075,7 +7105,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7134,7 +7164,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7162,7 +7192,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7192,7 +7222,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7202,7 +7232,7 @@
     {
         "id": "6add0d887dd55aa0f48c3d9f",
         "category": "New Release",
-        "director": "Adhish Rana",
+        "director": "Unknown",
         "genre": [
             "Drama",
             "Romance"
@@ -7251,7 +7281,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7280,7 +7310,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7310,7 +7340,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7340,7 +7370,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7369,7 +7399,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7399,7 +7429,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7430,7 +7460,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7459,7 +7489,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7490,7 +7520,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7520,7 +7550,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7549,7 +7579,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7578,7 +7608,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7607,7 +7637,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7636,7 +7666,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7666,7 +7696,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7696,7 +7726,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7726,7 +7756,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7755,7 +7785,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7785,7 +7815,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7814,7 +7844,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7843,7 +7873,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7873,7 +7903,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7931,7 +7961,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7961,7 +7991,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -7990,7 +8020,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8020,7 +8050,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8078,7 +8108,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8107,7 +8137,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8197,7 +8227,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8226,7 +8256,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8284,7 +8314,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8313,7 +8343,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8342,7 +8372,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8401,7 +8431,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8491,7 +8521,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8520,7 +8550,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8548,7 +8578,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8579,7 +8609,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8609,7 +8639,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8638,7 +8668,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8667,7 +8697,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8697,7 +8727,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8727,7 +8757,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8756,7 +8786,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8785,7 +8815,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8814,7 +8844,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8844,7 +8874,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8874,7 +8904,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8904,7 +8934,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8934,7 +8964,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -8963,7 +8993,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9022,7 +9052,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9078,7 +9108,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9107,7 +9137,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9136,7 +9166,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9166,7 +9196,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9225,7 +9255,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9254,7 +9284,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9284,7 +9314,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9312,7 +9342,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9341,7 +9371,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9371,7 +9401,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9400,7 +9430,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9430,7 +9460,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9459,7 +9489,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9518,7 +9548,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9635,7 +9665,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9664,7 +9694,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9693,7 +9723,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9722,7 +9752,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9750,7 +9780,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9780,7 +9810,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9810,7 +9840,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9840,7 +9870,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9869,7 +9899,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9899,7 +9929,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9929,7 +9959,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9958,7 +9988,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -9988,7 +10018,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10018,7 +10048,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10047,7 +10077,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10076,7 +10106,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10105,7 +10135,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10134,7 +10164,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10164,7 +10194,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10192,7 +10222,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10280,7 +10310,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10308,7 +10338,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10367,7 +10397,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10397,7 +10427,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10455,7 +10485,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10484,7 +10514,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10513,7 +10543,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10541,7 +10571,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10569,7 +10599,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10598,7 +10628,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10628,7 +10658,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10658,7 +10688,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10688,7 +10718,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10717,7 +10747,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10776,7 +10806,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10806,7 +10836,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10836,7 +10866,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10864,7 +10894,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10892,7 +10922,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10922,7 +10952,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10951,7 +10981,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -10980,7 +11010,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -11008,7 +11038,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -11037,7 +11067,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/122.0",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
@@ -11067,7 +11097,7 @@
         "headers": {
             "referer": "https://www.moviesbazar.tv/",
             "origin": "https://www.moviesbazar.tv",
-            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "\"Windows\"",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
